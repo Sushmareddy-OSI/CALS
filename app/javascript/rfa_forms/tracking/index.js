@@ -1,11 +1,10 @@
 import React from 'react'
 import Immutable from 'immutable'
-import CardsGroupLayout from 'components/common/cardsGroupLayout.js'
+import TrackingDocuments from './trackingDocuments.jsx'
 
 export default class TrackingList extends React.Component {
   constructor (props) {
     super(props)
-
     this.state = {
       user: this.props.user,
       rfa_application: this.props.rfa_application,
@@ -15,10 +14,12 @@ export default class TrackingList extends React.Component {
 
   render () {
     return (
-      <CardsGroupLayout>
-        <div>tracking id: {this.state.tracking.id}</div>
-        <div>rfa_1a_id: {this.state.rfa_application.id}</div>
-      </CardsGroupLayout>
+      <div className='tracking_page'>
+        <TrackingDocuments
+          applicationDetails={this.state.rfa_application}
+          trackingDetails={this.state.tracking}
+        />
+      </div>
     )
   }
 }
