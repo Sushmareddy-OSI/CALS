@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
+import TrackingListRows from './trackingListRows'
 
 const TrackingTable = ({
-  documents,
-  CardHeader
+  CardHeader,
+  trackingDocuments
 }) => {
   return (
     <div className='container'>
@@ -20,11 +21,14 @@ const TrackingTable = ({
           </thead>
           <tbody>
             {
-              this.props.trackingDetails.map((documents, index) => {
-                <TrackingDocsList
-                  key={index}
-                  documentDetails={documents}
-                />
+              familyDocuments.map((docs, index) => {
+                console.log(docs)
+                return(
+                  <TrackingListRows 
+                    key={index}
+                    docs={docs}
+                  />
+                )
               })
             }
           </tbody>
@@ -35,7 +39,7 @@ const TrackingTable = ({
 }
 
 TrackingTable.defaultProps = {
-  CardHeader
+  CardHeader: ''
 }
 
 export default TrackingTable

@@ -1,35 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingDocsList from './trackingDocsList'
+import _ from 'lodash'
+import TrackingListRows from './trackingListRows'
+import TrackingTable from './trackingTable'
 
 export default class TrackingDocuments extends React.Component {
   render () {
-    debugger
+    const array = []
+    const tacking = this.props.trackingDocuments
+    const familyDocuments = tacking.facility_documents.family_documents.items
+    const assessmentsDocuments = tacking.facility_documents.assessments.items
+    const tasksAndTrainingsDocuments = tacking.facility_documents.tasks_and_trainings.items
+
+    const trackingList = _.concat(array, familyDocuments,
+      assessmentsDocuments, [tasksAndTrainingsDocuments])
     return (
-      <div className='container'>
-        <div className='rfa01a-list table-responsive'>
-          <h3>{this.props.CardHeader}</h3>
-          <table className='table table-hover'>
-            <thead>
-              <tr>
-                <th scope='col'>Family Documents</th>
-                <th scope='col'>Received</th>
-                <th scope='col'>Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              {
-                this.props.trackingDetails.map((documents, index) => {
-                  <TrackingDocsList
-                    key={index}
-                    documentDetails={documents}
-                  />
-                })
-              }
-            </tbody>
-          </table>
-        </div>
+      <div>
+        {
+          trackingList.map((list) => {
+            <TrackingTable 
+              trackingDocuments={list}
+            />
+          })
+        }
       </div>
     )
   }
