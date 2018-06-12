@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingListRows from './trackingListRows'
+import TrackingListRowsEdit from './trackingListRowsEdit'
+import TrackingListRowsShow from './trackingListRowsShow'
 
 const TrackingTable = ({
   CardHeader,
-  trackingDocuments
+  trackingDocuments,
+  editMode
 }) => {
   return (
     <div className='container'>
@@ -21,14 +23,15 @@ const TrackingTable = ({
           </thead>
           <tbody>
             {
-              familyDocuments.map((docs, index) => {
-                console.log(docs)
-                return(
-                  <TrackingListRows 
+              trackingDocuments.map((docs, index) => {
+                return editMode
+                  ? <TrackingListRowsEdit
+                    key={index}
+                    docs={docs}
+                  /> : <TrackingListRowsShow
                     key={index}
                     docs={docs}
                   />
-                )
               })
             }
           </tbody>
@@ -39,7 +42,8 @@ const TrackingTable = ({
 }
 
 TrackingTable.defaultProps = {
-  CardHeader: ''
+  CardHeader: '',
+  editMode: false
 }
 
 export default TrackingTable

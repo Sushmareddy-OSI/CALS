@@ -1,29 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingDocument from './trackingDocument'
-
 import TrackFaciltyDocs from './trackFaciltyDocs'
 import TrackPeopleDocs from './trackPeopleDocs'
 
-export default class TrackingList extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      user: this.props.user,
-      rfa_application: this.props.rfa_application,
-      tracking: this.props.tracking
-    }
-  }
-
+export default class TrackingDocument extends React.Component {
   render () {
-    const trackingDocuments = this.state.tracking.tracking_documents
-    const peopleDocuments = trackingDocuments.people_documents
     return (
-      <div className='tracking_page'>
+      <div className='tracking-edit'>
         <div className='facility_documents'>
-          <TrackingDocument
-            trackingDocuments={trackingDocuments}
-            editMode
+          <TrackFaciltyDocs
+            trackingDocuments={this.props.trackingDocuments.facility_documents}
+            editMode={this.props.editMode}
           />
         </div>
         {/* <div className='people_documents'>
@@ -38,8 +26,10 @@ export default class TrackingList extends React.Component {
             })
           }
         </div> */}
-
       </div>
     )
   }
+}
+
+TrackingDocument.defaultProps = {
 }
