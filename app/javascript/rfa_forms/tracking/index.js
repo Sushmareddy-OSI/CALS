@@ -75,7 +75,6 @@ export default class TrackingList extends React.Component {
         <BreadCrumb
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
         <CardsGroupLayout>
-          {this.editSaveToggle()}
           <TrackingDocument
             trackingDocuments={trackingDocuments}
             editMode={this.state.cardBeingEdited}
