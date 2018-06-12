@@ -20,25 +20,10 @@ export default class TrackingList extends React.Component {
     const peopleDocuments = trackingDocuments.people_documents
     return (
       <div className='tracking_page'>
-        <div className='facility_documents'>
-          <TrackingDocument
-            trackingDocuments={trackingDocuments}
-            editMode
-          />
-        </div>
-        {/* <div className='people_documents'>
-          {
-            peopleDocuments.map((docs, index) => {
-              return (
-                <TrackPeopleDocs
-                  key={index}
-                  trackingDocuments={docs}
-                />
-              )
-            })
-          }
-        </div> */}
-
+        <TrackingDocument
+          trackingDocuments={trackingDocuments}
+          editMode
+        />
       </div>
     )
   }
