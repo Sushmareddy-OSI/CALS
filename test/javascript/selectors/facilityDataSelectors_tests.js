@@ -5,7 +5,8 @@ import {
   getFacilityAddresses,
   getFacilityPhones,
   getFacilityName,
-  getOtherFacilityData
+  getOtherFacilityData,
+  getFacilityAssignedWorker
 } from 'selectors/facilityDataSelectors'
 describe('facilityDataSelectors', () => {
   describe('getFacilityDataSelector', () => {
@@ -30,7 +31,9 @@ describe('facilityDataSelectors', () => {
             'name': 'Little Dreams Home',
             'licensee_name': 'Ananya Nandi',
             'license_type': 'A',
-            'assigned_worker': {},
+            'assigned_worker': {
+              value: 'Ananya Nandi'
+            },
             'district_office': {
               'number': '19',
               'name': 'PACIFIC INLAND CR'
@@ -66,7 +69,6 @@ describe('facilityDataSelectors', () => {
         }
       }
       expect(getFacilityData(state)).toEqual({
-        assigned_worker: 'N/A',
         capacity: 'N/A',
         capacity_last_changed: 'N/A',
         district_office: 'PACIFIC INLAND CR',
@@ -208,6 +210,45 @@ describe('facilityDataSelectors', () => {
       })
     })
   })
+  describe('getFacilityAssignedWorkerSelector', () => {
+    it('should return other attributes with N/A when passed in null', () => {
+      const state = {
+        facilityReducer: {
+          facility: {}
+        }
+      }
+      expect(getFacilityAssignedWorker(state)).toEqual({
+        assigned_worker_full_name: 'N/A',
+        assigned_worker_phone_number: 'N/A'
+      })
+    })
+    it('should return assigned worker data', () => {
+      const state = {
+        facilityReducer: {
+          facility: {
+            assigned_worker: {
+              value: 'Ananya Nandi',
+              'phones': [
+                {
+                  'relation': 'primary',
+                  'number': '9164578228'
+                },
+                {
+                  'relation': 'alternate',
+                  'number': '9164578228'
+                }
+              ]
+            }
+          }
+        }
+      }
+      expect(getFacilityAssignedWorker(state)).toEqual({
+        assigned_worker_full_name: 'Ananya Nandi',
+        assigned_worker_phone_number: '(916) 457-8228'
+      })
+    })
+  })
+
   describe('getChildrenDataSelector', () => {
     it('should return empty array when passed in null', () => {
       const state = {
@@ -261,37 +302,35 @@ describe('facilityDataSelectors', () => {
   describe('getComplaintsDataSelector', () => {
     it('should return null when passed in null', () => {
       const state = {
-        facilityReducer: {
-          facilityComplaints: null
+        facilityComplaints: {
+          complaints: null
         }
       }
-      expect(getFacilityComplaints(state)).toEqual(null)
+      expect(getFacilityComplaints(state)).toEqual(undefined)
     })
     it('should return complaints array', () => {
       const state = {
-        facilityReducer: {
-          facilityComplaints: {
-            'complaints': [{
-              'id': '19-CR-195002-20041019105945',
-              'complaint_date': '2004-10-19 00:00:00',
-              'assigned_worker': 'Saritha Reddy',
-              'control_number': '198952',
-              'status': 'Approved',
-              'pre_investigation_comments': 'PO Zamora not in today - contact made with Janice Featherston as described above.',
-              'post_investigation_comments': 'Left message on her voicemail informing her of the outcome of the investigation.',
-              'contact_summary': 'Assigned to LPA Jeffers.\r\nComplaint originally written on 10/15/04, under the wrong Olive Crest home.  LPA Jeffers re-wrote the complaint under the same control #.\r\n"10-day" visit completed 10/21/04.\r\nInterviews conducted with the 3 clients in placement at the time, with the staff alleged to be the perpetrator.',
-              'followup_comments': 'None at this time.',
-              'allegations': [{
-                'complaint_code': '3',
-                'allegation': 'Staff Meena Desai marks clients Alexzena Webb and Dizirea Goodwin with a ballpoint pen while they are sleeping.',
-                'resolution_code_unsub': 'U'
-              }]
+        facilityComplaints: {
+          'complaints': [{
+            'id': '19-CR-195002-20041019105945',
+            'complaint_date': '2004-10-19 00:00:00',
+            'assigned_worker': 'Saritha Reddy',
+            'control_number': '198952',
+            'status': 'Approved',
+            'pre_investigation_comments': 'PO Zamora not in today - contact made with Janice Featherston as described above.',
+            'post_investigation_comments': 'Left message on her voicemail informing her of the outcome of the investigation.',
+            'contact_summary': 'Assigned to LPA Jeffers.\r\nComplaint originally written on 10/15/04, under the wrong Olive Crest home.  LPA Jeffers re-wrote the complaint under the same control #.\r\n"10-day" visit completed 10/21/04.\r\nInterviews conducted with the 3 clients in placement at the time, with the staff alleged to be the perpetrator.',
+            'followup_comments': 'None at this time.',
+            'allegations': [{
+              'complaint_code': '3',
+              'allegation': 'Staff Meena Desai marks clients Alexzena Webb and Dizirea Goodwin with a ballpoint pen while they are sleeping.',
+              'resolution_code_unsub': 'U'
             }]
-          }
+          }]
         }
       }
-      expect(getFacilityComplaints(state)).toEqual({
-        complaints: [{
+      expect(getFacilityComplaints(state)).toEqual(
+        [{
           id: '19-CR-195002-20041019105945',
           approval_date: 'N/A',
           assigned_worker: 'Saritha Reddy',
@@ -300,7 +339,7 @@ describe('facilityDataSelectors', () => {
           priority_level: undefined,
           status: 'Approved'
         }]
-      })
+      )
     })
   })
 })

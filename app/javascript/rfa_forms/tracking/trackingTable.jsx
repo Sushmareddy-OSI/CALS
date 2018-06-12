@@ -7,7 +7,9 @@ import TrackingListRowsShow from './trackingListRowsShow'
 const TrackingTable = ({
   CardHeader,
   trackingDocuments,
-  editMode
+  editMode,
+  inputValues,
+  handleChange
 }) => {
   return (
     <div className='container'>
@@ -26,9 +28,12 @@ const TrackingTable = ({
               trackingDocuments.map((docs, index) => {
                 return editMode
                   ? <TrackingListRowsEdit
+                    inputValues={inputValues}
                     key={index}
+                    handleChange={handleChange}
                     docs={docs}
                   /> : <TrackingListRowsShow
+                    inputValues={inputValues}
                     key={index}
                     docs={docs}
                   />
@@ -43,7 +48,8 @@ const TrackingTable = ({
 
 TrackingTable.defaultProps = {
   CardHeader: '',
-  editMode: false
+  editMode: false,
+  trackingDocuments: []
 }
 
 export default TrackingTable

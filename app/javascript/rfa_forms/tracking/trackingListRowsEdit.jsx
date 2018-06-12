@@ -6,13 +6,14 @@ import {TextAreaComponent} from 'components/common/textArea'
 import {BinarySelectorField} from 'components/common/binarySelectorField'
 
 const TrackingListRowsEdit = ({
-  docs
+  docs,
+  handleChange
 }) => {
   return (
     <tr>
       <td><BinarySelectorField
         gridClassName='inlineBlock'
-        onChange={(event) => { console.log('check') }}
+        onChange={(event) => console.log('date')}
         value={docs.checked}/>
       {docs.title}
       </td>
@@ -25,7 +26,7 @@ const TrackingListRowsEdit = ({
       <td>
         <TextAreaComponent
           value={docs.notes}
-          onChange={(event) => { console.log('text Area') }}
+          onChange={(event) => console.log('date')}
         />
       </td>
     </tr>
@@ -33,6 +34,10 @@ const TrackingListRowsEdit = ({
 }
 
 TrackingListRowsEdit.defaultProps = {
-
+  'notes': '',
+  'title': '',
+  'checked': false,
+  'approved_date': '',
+  'submitted_date': ''
 }
 export default TrackingListRowsEdit

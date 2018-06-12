@@ -7,10 +7,6 @@ import TrackingTable from './trackingTable'
 export default class TrackPeopleDocs extends React.Component {
   render () {
     const facilityDocuments = this.props.trackingDocuments
-    const familyDocuments = facilityDocuments.family_documents.items
-    const assessmentDocuments = facilityDocuments.assessments.items
-    const taskAndTrainingDocuments = facilityDocuments.tasks_and_trainings.items
-
     return (
       <div>
         {/* Iterative array to be created */}
@@ -25,7 +21,7 @@ export default class TrackPeopleDocs extends React.Component {
           })
         */}
         <TrackingTable
-          trackingDocuments={familyDocuments}
+          trackingDocuments={facilityDocuments}
           editMode={this.props.editMode}
         />
       </div>

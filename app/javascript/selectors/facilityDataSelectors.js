@@ -2,6 +2,7 @@ import {
   checkForNA,
   checkforDateOrNa,
   checkfullNameorNA,
+  checkPhoneNumberOrNA,
   checkNameorNA,
   handleLicenseEffectiveDate,
   cityStateZipOfRespectiveAddressOrNA,
@@ -17,7 +18,7 @@ const facilitySelector = (state) => state.facilityReducer.facility
 
 const facilityChildrenSelector = (state) => state.facilityChildrenReducer.facilityChildren
 
-const facilityComplaintsSelector = (state) => state.facilityReducer.facilityComplaints
+const facilityComplaintsSelector = (state) => state.facilityComplaints.complaints
 
 const getAddressesOfFacility = (addresses) => ({
   physicalStreetAddress: respectiveStreetAddressOrNA(addresses, physicalAddressType),
@@ -37,8 +38,12 @@ const getOtherDataOfFacility = (facilityState) => ({
   lastVisitReason: checkForNA(facilityState.last_visit_reason)
 })
 
+const getAssignedWorkerData = (assignedWorker) => ({
+  assigned_worker_full_name: checkForNA(assignedWorker),
+  assigned_worker_phone_number: checkPhoneNumberOrNA(assignedWorker, primaryPhoneRelation)
+})
+
 const getFacilityDetails = (facilityState) => ({
-  assigned_worker: checkForNA(facilityState.assigned_worker),
   capacity: facilityState.capacity || 'N/A',
   capacity_last_changed: checkforDateOrNa(facilityState.capacity_last_changed),
   district_office: checkNameorNA(facilityState.district_office),
@@ -66,8 +71,8 @@ const getFacilityChildrenData = (facilityChildrenState) => {
   )
 }
 
-const getFacilityComplaintsData = (facilityComplaintsState) => {
-  return facilityComplaintsState.complaints.map((complaint) => ({
+const getFacilityComplaintsData = (facilityComplaints) => {
+  return facilityComplaints.map((complaint) => ({
     id: complaint.id,
     approval_date: checkforDateOrNa(complaint.approval_date),
     assigned_worker: complaint.assigned_worker,
@@ -83,6 +88,13 @@ export const getFacilityName = (state) => {
   const facilityState = facilitySelector(state)
   if (facilityState !== null) {
     return facilityState.name || 'N/A'
+  }
+}
+
+export const getFacilityAssignedWorker = (state) => {
+  const facilityState = facilitySelector(state)
+  if (facilityState !== null) {
+    return getAssignedWorkerData(facilityState.assigned_worker)
   }
 }
 
@@ -122,11 +134,8 @@ export const getFacilityChildren = (state) => {
 }
 
 export const getFacilityComplaints = (state) => {
-  const facilityComplaintsState = facilityComplaintsSelector(state)
-  if (facilityComplaintsState !== null) {
-    return {
-      complaints: getFacilityComplaintsData(facilityComplaintsState)
-    }
+  const facilityComplaints = facilityComplaintsSelector(state)
+  if (facilityComplaints !== null) {
+    return getFacilityComplaintsData(facilityComplaints)
   }
-  return null
 }

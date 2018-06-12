@@ -5,6 +5,18 @@ import _ from 'lodash'
 import TrackingTable from './trackingTable'
 
 export default class TrackFaciltyDocs extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      textAreaValue: ''
+    }
+    this.handleChange = this.handleChange.bind(this)
+  }
+  handleChange (value) {
+    this.setState({
+      textAreaValue: value
+    })
+  }
   render () {
     const facilityDocuments = this.props.trackingDocuments
     const familyDocuments = facilityDocuments.family_documents.items
@@ -25,6 +37,8 @@ export default class TrackFaciltyDocs extends React.Component {
           })
         */}
         <TrackingTable
+          handleChange={this.handleChange}
+          inputValues={this.state}
           trackingDocuments={familyDocuments}
           editMode={this.props.editMode}
         />

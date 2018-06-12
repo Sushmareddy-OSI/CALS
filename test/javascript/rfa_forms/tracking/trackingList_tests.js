@@ -2,8 +2,8 @@ import React from 'react'
 import TrackingList from 'rfa_forms/tracking'
 import {shallow, mount} from 'enzyme'
 
-describe('Rfa01CEditView test', () => {
-  let trackingListView
+describe('Tracking Page test', () => {
+  let trackingListView, saveProgressSpy, trackingListViewNoProps
 
   beforeEach(() => {
     const props = {
@@ -189,11 +189,17 @@ describe('Rfa01CEditView test', () => {
         metadata: {submit_enabled: true}
       }
     }
-
+    saveProgressSpy = spyOn(TrackingList.prototype, 'saveProgress').and.callThrough()
     trackingListView = mount(<TrackingList {...props} />)
   })
 
   it('tests tracking List View renders page', () => {
     expect(trackingListView.length).toEqual(1)
+  })
+
+  it('tests save', () => {
+    let saveProgressBtn = trackingListView.find('#saveProgress')
+    saveProgressBtn.simulate('click')
+    expect(saveProgressSpy).toHaveBeenCalled()
   })
 })

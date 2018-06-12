@@ -10,7 +10,6 @@ const TrackingListRowsShow = ({
     <tr>
       <td><BinarySelectorField
         gridClassName='inlineBlock'
-        onChange={(event) => { console.log('check') }}
         value={docs.checked}/>
       {docs.title}
       </td>
@@ -25,6 +24,10 @@ const TrackingListRowsShow = ({
 }
 
 TrackingListRowsShow.defaultProps = {
-
+  'notes': '',
+  'title': '',
+  'checked': false,
+  'approved_date': '',
+  'submitted_date': ''
 }
 export default TrackingListRowsShow
