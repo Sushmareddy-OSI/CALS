@@ -34,10 +34,10 @@ const TrackingListRowsEdit = ({
 }
 
 TrackingListRowsEdit.defaultProps = {
-  'notes': '',
-  'title': '',
-  'checked': false,
-  'approved_date': '',
-  'submitted_date': ''
+  docs: {
+    'notes': '',
+    'title': '',
+    'checked': false
+  }
 }
 export default TrackingListRowsEdit
