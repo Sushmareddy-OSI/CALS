@@ -1,15 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingListRowsEdit from './trackingListRowsEdit'
-import TrackingListRowsShow from './trackingListRowsShow'
 
 const TrackingTable = ({
-  CardHeader,
-  trackingDocuments,
-  editMode,
-  inputValues,
-  handleChange
+  colHeaders,
+  rowsComponent,
+  CardHeader
 }) => {
   return (
     <div className='container'>
@@ -18,27 +14,13 @@ const TrackingTable = ({
         <table className='table table-hover'>
           <thead>
             <tr>
-              <th scope='col'>Family Documents</th>
-              <th scope='col'>Received</th>
-              <th scope='col'>Notes</th>
+              {colHeaders.map((colName, index) => {
+                return (<th scope='col' key={index}>{colName}</th>)
+              })}
             </tr>
           </thead>
           <tbody>
-            {
-              trackingDocuments.map((docs, index) => {
-                return editMode
-                  ? <TrackingListRowsEdit
-                    inputValues={inputValues}
-                    key={index}
-                    handleChange={handleChange}
-                    docs={docs}
-                  /> : <TrackingListRowsShow
-                    inputValues={inputValues}
-                    key={index}
-                    docs={docs}
-                  />
-              })
-            }
+            { rowsComponent }
           </tbody>
         </table>
       </div>
@@ -47,9 +29,10 @@ const TrackingTable = ({
 }
 
 TrackingTable.defaultProps = {
+  colHeaders: [],
   CardHeader: '',
   editMode: false,
-  trackingDocuments: []
+  rowsComponent: null
 }
 
 export default TrackingTable

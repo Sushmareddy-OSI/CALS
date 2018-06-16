@@ -10,6 +10,7 @@ export default class TrackingDocument extends React.Component {
       <div className='tracking-edit'>
         <div className='facility_documents'>
           <TrackFaciltyDocs
+            setParentState={this.props.setParentState}
             trackingDocuments={this.props.trackingDocuments.facility_documents}
             editMode={this.props.editMode}
           />
