@@ -13,8 +13,7 @@ const assessmentsDocRow = ({
 }) => {
   return (
     editMode
-    ?
-      trackingDocuments.items.map((docs, index) => {
+      ? trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'assessmentEdit' + index}>
             <td><BinarySelectorField
@@ -26,7 +25,7 @@ const assessmentsDocRow = ({
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, index, 'assessments', trackingDocuments)}
               defaultChecked={docs.checked}
-               />
+            />
             </td>
             <td>
               <DateField
@@ -49,8 +48,7 @@ const assessmentsDocRow = ({
           </tr>
         )
       })
-    :
-      trackingDocuments.items.map((docs, index) => {
+      : trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'assessmentShow' + index}>
             <td id={'AssessmentShowCheckbox' + index}>

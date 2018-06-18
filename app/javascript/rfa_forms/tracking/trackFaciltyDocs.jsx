@@ -54,7 +54,7 @@ export default class TrackFaciltyDocs extends React.Component {
               editMode={this.props.editMode}
               handleChange={this.handleFamilyDocumentsChange}
               trackingDocuments={familyDocuments} />
-            } />
+          } />
         <TrackingTable
           colHeaders={['Tasks and Trainings', '', 'Completed', 'Notes']}
           rowsComponent={
@@ -62,7 +62,7 @@ export default class TrackFaciltyDocs extends React.Component {
               handleChange={this.handleTaskAndTrainingChange}
               trackingDocuments={taskAndTrainingDocuments}
               editMode={this.props.editMode} />
-            } />
+          } />
         <TrackingTable
           colHeaders={['Assessments', 'Submitted', 'Approved', 'Notes']}
           rowsComponent={
@@ -70,7 +70,7 @@ export default class TrackFaciltyDocs extends React.Component {
               handleChange={this.handleAssessmentDocsChange}
               trackingDocuments={assessmentDocuments}
               editMode={this.props.editMode} />
-            } />
+          } />
       </div>
     )
   }

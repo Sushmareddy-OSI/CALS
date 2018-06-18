@@ -13,8 +13,7 @@ const taskAndTrainingDocRow = ({
 }) => {
   return (
     editMode
-    ?
-      trackingDocuments.items.map((docs, index) => {
+      ? trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'taskAndTrainingEdit' + index}>
             <td><BinarySelectorField
@@ -26,7 +25,7 @@ const taskAndTrainingDocRow = ({
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, index, 'tasks_and_trainings', trackingDocuments)}
               defaultChecked={docs.checked}
-               />
+            />
             </td>
             <td />
             <td>
@@ -45,8 +44,7 @@ const taskAndTrainingDocRow = ({
         )
       })
 
-    :
-      trackingDocuments.items.map((docs, index) => {
+      : trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'taskAndTrainingShow' + index}>
             <td><BinarySelectorField

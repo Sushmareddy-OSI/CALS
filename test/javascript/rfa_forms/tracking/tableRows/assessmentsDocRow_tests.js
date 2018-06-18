@@ -49,7 +49,7 @@ describe('Tracking Show mode', () => {
   it('edit date field', () => {
     let textAreaField = editAssessmentDocRow.find('#assessmentEditSubmittedDate0').hostNodes()
     textAreaField.simulate('change', {target: {value: '01/20/1981'}})
-    expect(changeSpy).toHaveBeenCalledWith('submitted_date', '1981-01-20', 0, 'assessments', { items: [{ notes: 'testing', title: 'Family Evaluation', checked: false, approved_date: '1978-01-21', submitted_date: '1969-01-21' } ] })
+    expect(changeSpy).toHaveBeenCalledWith('submitted_date', '1981-01-20', 0, 'assessments', { items: [ { notes: 'testing', title: 'Family Evaluation', checked: false, approved_date: '1978-01-21', submitted_date: '1969-01-21' } ] })
   })
 
   it('loads the row ', () => {

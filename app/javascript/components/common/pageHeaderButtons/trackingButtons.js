@@ -4,7 +4,7 @@ import Button from 'components/common/button'
 
 const TrackingButtons = ({
   saveProgress,
-   editProgress
+  editProgress
 }) => {
   return (
     <div>

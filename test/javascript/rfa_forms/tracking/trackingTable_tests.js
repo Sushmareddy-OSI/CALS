@@ -24,7 +24,7 @@ describe('Tracking Table test', () => {
           editMode
           handleChange={changeSpy}
           trackingDocuments={trackingDocuments} />
-          } />)
+      } />)
   })
 
   it('Table load', () => {
