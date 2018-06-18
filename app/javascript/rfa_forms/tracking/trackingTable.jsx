@@ -8,23 +8,23 @@ const TrackingTable = ({
   CardHeader
 }) => {
   return (
-    <div className='container'>
-      <div className='rfa01a-list table-responsive'>
-        <h3>{CardHeader}</h3>
-        <table className='table table-hover'>
-          <thead>
-            <tr>
-              {colHeaders.map((colName, index) => {
-                return (<th scope='col' key={index}>{colName}</th>)
-              })}
-            </tr>
-          </thead>
-          <tbody>
-            { rowsComponent }
-          </tbody>
-        </table>
-      </div>
+
+    <div className='rfa01a-list table-responsive'>
+      <h3>{CardHeader}</h3>
+      <table className='table table-hover'>
+        <thead>
+          <tr>
+            {colHeaders.map((colName, index) => {
+              return (<th scope='col' key={index}>{colName}</th>)
+            })}
+          </tr>
+        </thead>
+        <tbody>
+          { rowsComponent }
+        </tbody>
+      </table>
     </div>
+
   )
 }
 

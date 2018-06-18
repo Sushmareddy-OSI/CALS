@@ -15,6 +15,7 @@ export default class TrackingList extends React.Component {
     super(props)
     this.saveProgress = this.saveProgress.bind(this)
     this.editProgress = this.editProgress.bind(this)
+    this.cancelProgress = this.cancelProgress.bind(this)
     this.setApplicationState = this.setApplicationState.bind(this)
 
     this.state = {
@@ -27,6 +28,10 @@ export default class TrackingList extends React.Component {
 
   editProgress (event) {
     this.setState({ cardBeingEdited: true })
+  }
+
+  cancelProgress (event) {
+    this.setState({ cardBeingEdited: false })
   }
 
   saveProgress (event) {
@@ -50,22 +55,32 @@ export default class TrackingList extends React.Component {
 
   render () {
     const trackingDocuments = this.state.tracking.tracking_documents
+    const facilityName = this.state.tracking.facility_name ? this.state.tracking.facility_name : ''
+
     return (
-      <div className='tracking_page'>
+      <div className='main_page'>
         <PageHeader
-          headerLabel='RFA Tracking'
+          headerLabel={facilityName + '-RFA Application'}
           pageHeaderButtons={
             <TrackingButtons
+              editMode={this.state.cardBeingEdited}
+              cancelProgress={this.cancelProgress}
               saveProgress={this.saveProgress}
               editProgress={this.editProgress} />} />
         <BreadCrumb
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
-        <CardsGroupLayout>
-          <TrackingDocument
-            setParentState={this.setApplicationState}
-            trackingDocuments={trackingDocuments}
-            editMode={this.state.cardBeingEdited} />
-        </CardsGroupLayout>
+        <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+          <div className='left-content col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+            side bar placeholder
+          </div>
+          <div className='col-xs-10 col-sm-10 col-md-10 col-lg-10'>
+            <TrackingDocument
+              facilityName={facilityName}
+              setParentState={this.setApplicationState}
+              trackingDocuments={trackingDocuments}
+              editMode={this.state.cardBeingEdited} />
+          </div>
+        </div>
       </div>
     )
   }

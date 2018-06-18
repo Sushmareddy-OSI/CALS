@@ -6,6 +6,7 @@ import TrackingTable from './trackingTable'
 import FamilyDocRow from './tableRows/familyDocRow'
 import TaskAndTrainingDocRow from './tableRows/taskAndTrainingDocRow'
 import AssessmentsDocRow from './tableRows/assessmentsDocRow'
+import CardsGroupLayout from 'components/common/cardsGroupLayout.js'
 
 export default class TrackFaciltyDocs extends React.Component {
   constructor (props) {
@@ -46,7 +47,7 @@ export default class TrackFaciltyDocs extends React.Component {
     const taskAndTrainingDocuments = facilityDocuments.tasks_and_trainings
 
     return (
-      <div>
+      <div >
         <TrackingTable
           colHeaders={['Family Documents', '', 'Received', 'Notes']}
           rowsComponent={

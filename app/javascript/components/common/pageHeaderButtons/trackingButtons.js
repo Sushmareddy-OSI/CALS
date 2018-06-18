@@ -3,27 +3,44 @@ import React from 'react'
 import Button from 'components/common/button'
 
 const TrackingButtons = ({
+  editMode,
   saveProgress,
-  editProgress
+  editProgress,
+  cancelProgress
 }) => {
   return (
     <div>
-      <div className='col-lg-2 col-md-2 col-sm-2 col-xs-2'>
-        <Button
-          buttonId='saveProgress'
-          label='Save '
-          textAlignment='right'
-          onClick={saveProgress}
-        />
-      </div>
-      <div className='col-lg-2 col-md-2 col-sm-2 col-xs-2'>
-        <Button
-          buttonId='editProgress'
-          label='Edit'
-          textAlignment='left'
-          onClick={editProgress}
-        />
-      </div>
+      {
+      editMode ?
+        <div className='pull-right' >
+          <div >
+            <div className='tracking-cancel inlineBlock'>
+              <Button
+                buttonId='CancelTracking'
+                label='Cancel'
+                textAlignment='center'
+                onClick={cancelProgress} />
+            </div>
+            <div className='tracking-button inlineBlock'>
+              <Button
+                buttonId='saveTracking'
+                label='Save'
+                textAlignment='center'
+                onClick={saveProgress} />
+            </div>
+          </div>
+        </div>
+        :
+        <div className='pull-right'>
+          <div className='tracking-button'>
+            <Button
+              buttonId='editTracking'
+              label='Edit Checklist'
+              textAlignment='center'
+              onClick={editProgress} />
+          </div>
+        </div>
+  }
     </div>
   )
 }

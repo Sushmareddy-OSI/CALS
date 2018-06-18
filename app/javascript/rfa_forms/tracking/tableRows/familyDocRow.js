@@ -7,13 +7,14 @@ import {TextAreaComponent} from 'components/common/textArea'
 import {FormatDateForDisplay, FormatDateForPersistance} from 'helpers/commonHelper.jsx'
 
 const FamilyDocRow = ({
-  trackingDocuments,
+trackingDocuments,
   editMode,
   handleChange
 }) => {
   return (
     editMode
-      ? trackingDocuments.items.map((docs, index) => {
+    ?
+      trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'familyEdit' + index}>
             <td><BinarySelectorField
@@ -25,7 +26,7 @@ const FamilyDocRow = ({
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, index, 'family_documents', trackingDocuments)}
               defaultChecked={docs.checked}
-            />
+             />
             </td>
             <td />
             <td>
@@ -43,7 +44,8 @@ const FamilyDocRow = ({
           </tr>
         )
       })
-      : trackingDocuments.items.map((docs, index) => {
+    :
+      trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'familyEdit' + index}>
             <td><BinarySelectorField
