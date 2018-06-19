@@ -71,7 +71,6 @@ def pushToDocker(imageLocation, args, docker_credential_id) {
     withEnv(["DOCKER_CREDENTIALS_ID=${docker_credential_id}"]) {
         withDockerRegistry([credentialsId: docker_credential_id]) {
             app.push()
-            app.push('latest')
         }
     }
 }
@@ -172,7 +171,7 @@ node('cals-slave') {
             stage('Deploy Preint') {
                 sh "curl -v 'http://${JENKINS_USER}:${JENKINS_API_TOKEN}@jenkins.mgmt.cwds.io:8080/job/preint/job/deploy-CALS/buildWithParameters" +
                     "?" + "token=${JENKINS_TRIGGER_TOKEN}" + "&" + "cause=Caused%20by%20Build%20${env.BUILD_ID}" +
-                    "&" + "CALS_APP_VERSION=${newTag}'"
+                    "&" + "version=${newTag}'"
             }
         }
 
