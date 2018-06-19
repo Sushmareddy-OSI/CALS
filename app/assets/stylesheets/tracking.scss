@@ -6,7 +6,7 @@
 }
 .tracking-button{
 	.btn{
-			margin-left:5rem;		
+			margin-left:5rem;
 			background: none;
 			border: 2px solid white;
 			color: white;
@@ -20,3 +20,8 @@
 		color:white;
 	}
 }
+table { table-layout: fixed;
+	input[type="checkbox"] +label {
+		white-space: nowrap;
+	}
+ }
