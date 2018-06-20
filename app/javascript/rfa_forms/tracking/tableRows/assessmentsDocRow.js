@@ -17,7 +17,7 @@ const assessmentsDocRow = ({
         return (
           <tr key={'assessmentEdit' + index}>
             <td><BinarySelectorField
-              id={'AssessmentEditCheckbox' + index}
+              id={'assessmentEditCheckbox' + index}
               type='checkbox'
               key={index}
               labelId={'checkLabel' + index}
@@ -51,7 +51,7 @@ const assessmentsDocRow = ({
       : trackingDocuments.items.map((docs, index) => {
         return (
           <tr key={'assessmentShow' + index}>
-            <td id={'AssessmentShowCheckbox' + index}>
+            <td id={'assessmentShowCheckbox' + index}>
               <BinarySelectorField
                 type='checkbox'
                 key={index}
