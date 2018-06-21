@@ -7,26 +7,43 @@ import {BinarySelectorField} from 'components/common/binarySelectorField'
 
 const TrackingListRowsEdit = ({
   docs,
+  index,
   handleChange
 }) => {
+  //console.log(docs.toJS())
   return (
     <tr>
       <td><BinarySelectorField
+        key={index}
+        id={docs.get('title') + index}
+        type='checkbox'
         gridClassName='inlineBlock'
-        onChange={(event) => console.log('date')}
-        value={docs.get('checked')}/>
-      {docs.get('title')}
+        onChange={(event) => handleChange('checked', event.target.checked, index)}
+        value={docs.get('checked')}
+        label={docs.get('title')}/>
       </td>
       <td>
         <DateField
+          index={index}
+          id={docs.get('title') + index}
           value={docs.get('completed_date')}
-          onChange={(event) => { console.log('date') }}
+          onChange={(event)  => handleChange('started_date', event.target.value, index)}
+        />
+      </td>
+      <td>
+        <DateField
+          id={docs.get('title') + index}
+          index={index}
+          value={docs.get('completed_date')}
+          onChange={(event)  => handleChange('completed_date', event.target.value, index)}
         />
       </td>
       <td>
         <TextAreaComponent
+          id={docs.get('title') + index}
+          index={index}
           value={docs.get('notes')}
-          onChange={(event) => console.log('date')}
+          onChange={(event)  => handleChange('notes', event.target.value, index)}
         />
       </td>
     </tr>

@@ -14,6 +14,9 @@ const TrackingListRowsShow = ({
       {docs.get('title')}
       </td>
       <td>
+        {docs.get('start_date')}
+      </td>
+      <td>
         {docs.get('completed_date')}
       </td>
       <td>

@@ -15,7 +15,7 @@ export default class TrackingList extends React.Component {
     this.saveProgress = this.saveProgress.bind(this)
     this.editSaveToggle = this.editSaveToggle.bind(this)
     this.editProgress = this.editProgress.bind(this)
-    console.log(this.props)
+    this.setTrackingState = this.setTrackingState.bind(this)
     this.state = {
       user: this.props.user,
       rfaApplication: this.props.rfaApplication,
@@ -23,7 +23,11 @@ export default class TrackingList extends React.Component {
       cardBeingEdited: false
     }
   }
-
+  setTrackingState (key, value) {
+    let newState = Immutable.fromJS(this.state)
+    newState = newState.setIn(['tracking', 'tracking_documents', key], value)
+    this.setState(newState.toJS())
+  }
   editProgress (event) {
     this.setState({ cardBeingEdited: true })
   }
@@ -78,6 +82,7 @@ export default class TrackingList extends React.Component {
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
         <CardsGroupLayout>
           <TrackingDocument
+            setParentState={this.setTrackingState}
             trackingDocuments={trackingDocuments}
             editMode={this.state.cardBeingEdited}
           />
