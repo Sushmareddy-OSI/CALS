@@ -18,28 +18,20 @@ export default class TrackFaciltyDocs extends React.Component {
     })
   }
   render () {
-    const facilityDocuments = this.props.trackingDocuments
-    const familyDocuments = facilityDocuments.family_documents.items
-    const assessmentDocuments = facilityDocuments.assessments.items
-    const taskAndTrainingDocuments = facilityDocuments.tasks_and_trainings.items
+    const familyDocuments = this.props.trackingDocuments.get('family_documents')
+    //const familyDocuments = facilityDocuments.family_documents.items
+    //const assessmentDocuments = facilityDocuments.assessments.items
+    //const taskAndTrainingDocuments = facilityDocuments.tasks_and_trainings.items
 
     return (
       <div>
-        {/* Iterative array to be created */}
-        {/*
-          familyDocuments.map((list, index) => {
-            return (
-              <TrackingTable
-                key={index}
-                trackingDocuments={list}
-              />
-            )
-          })
-        */}
+        <div>
+          <h3>{this.props.tableTitle}</h3>
+        </div>
         <TrackingTable
           handleChange={this.handleChange}
           inputValues={this.state}
-          trackingDocuments={familyDocuments}
+          trackingDocuments={familyDocuments.get('items')}
           editMode={this.props.editMode}
         />
       </div>
@@ -47,6 +39,3 @@ export default class TrackFaciltyDocs extends React.Component {
   }
 }
 
-TrackFaciltyDocs.defaultProps = {
-  trackingDocuments: []
-}

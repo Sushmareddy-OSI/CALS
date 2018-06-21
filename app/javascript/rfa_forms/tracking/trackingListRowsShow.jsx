@@ -10,14 +10,14 @@ const TrackingListRowsShow = ({
     <tr>
       <td><BinarySelectorField
         gridClassName='inlineBlock'
-        value={docs.checked}/>
-      {docs.title}
+        value={docs.get('checked')}/>
+      {docs.get('title')}
       </td>
       <td>
-        {docs.completed_date}
+        {docs.get('completed_date')}
       </td>
       <td>
-        {docs.notes}
+        {docs.get('notes')}
       </td>
     </tr>
   )

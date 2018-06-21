@@ -11,6 +11,7 @@ const TrackingTable = ({
   inputValues,
   handleChange
 }) => {
+  console.log(trackingDocuments)
   return (
     <div className='container'>
       <div className='rfa01a-list table-responsive'>
@@ -25,7 +26,7 @@ const TrackingTable = ({
           </thead>
           <tbody>
             {
-              trackingDocuments.map((docs, index) => {
+              trackingDocuments && trackingDocuments.map((docs, index) => {
                 return editMode
                   ? <TrackingListRowsEdit
                     inputValues={inputValues}
@@ -48,8 +49,7 @@ const TrackingTable = ({
 
 TrackingTable.defaultProps = {
   CardHeader: '',
-  editMode: false,
-  trackingDocuments: []
+  editMode: false
 }
 
 export default TrackingTable

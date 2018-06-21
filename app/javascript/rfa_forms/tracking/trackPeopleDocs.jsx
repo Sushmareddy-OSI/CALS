@@ -6,22 +6,22 @@ import TrackingTable from './trackingTable'
 
 export default class TrackPeopleDocs extends React.Component {
   render () {
-    const facilityDocuments = this.props.trackingDocuments
+    const personDocuments = this.props.peopleDocument.get('person_documents')
     return (
       <div>
-        {/* Iterative array to be created */}
-        {/*
-          familyDocuments.map((list, index) => {
-            return (
-              <TrackingTable
-                key={index}
-                trackingDocuments={list}
-              />
-            )
-          })
-        */}
+        <div>
+          <h3>{this.props.tableTitle}</h3>
+        </div>
         <TrackingTable
-          trackingDocuments={facilityDocuments}
+          trackingDocuments={personDocuments.getIn(['individual_documents', 'items'])}
+          editMode={this.props.editMode}
+        />
+        <TrackingTable
+          trackingDocuments={personDocuments.getIn(['trainings', 'items'])}
+          editMode={this.props.editMode}
+        />
+        <TrackingTable
+          trackingDocuments={personDocuments.getIn(['clearances', 'items'])}
           editMode={this.props.editMode}
         />
       </div>
@@ -29,6 +29,3 @@ export default class TrackPeopleDocs extends React.Component {
   }
 }
 
-TrackPeopleDocs.defaultProps = {
-  trackingDocuments: []
-}

@@ -15,6 +15,7 @@ export default class TrackingList extends React.Component {
     this.saveProgress = this.saveProgress.bind(this)
     this.editSaveToggle = this.editSaveToggle.bind(this)
     this.editProgress = this.editProgress.bind(this)
+    console.log(this.props)
     this.state = {
       user: this.props.user,
       rfaApplication: this.props.rfaApplication,
@@ -46,7 +47,8 @@ export default class TrackingList extends React.Component {
   }
 
   render () {
-    const trackingDocuments = this.state.tracking.tracking_documents
+    console.log(this.state.tracking.tracking_documents)
+    const trackingDocuments = Immutable.fromJS(this.state.tracking.tracking_documents)
     return (
       <div className='tracking_page'>
         <PageHeader

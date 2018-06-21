@@ -14,18 +14,18 @@ const TrackingListRowsEdit = ({
       <td><BinarySelectorField
         gridClassName='inlineBlock'
         onChange={(event) => console.log('date')}
-        value={docs.checked}/>
-      {docs.title}
+        value={docs.get('checked')}/>
+      {docs.get('title')}
       </td>
       <td>
         <DateField
-          value={docs.completed_date}
+          value={docs.get('completed_date')}
           onChange={(event) => { console.log('date') }}
         />
       </td>
       <td>
         <TextAreaComponent
-          value={docs.notes}
+          value={docs.get('notes')}
           onChange={(event) => console.log('date')}
         />
       </td>
