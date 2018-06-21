@@ -13,14 +13,17 @@ export default class TrackPeopleDocs extends React.Component {
           <h3>{this.props.tableTitle}</h3>
         </div>
         <TrackingTable
+          colHeaders={['individual Documents', 'Started', 'completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['individual_documents', 'items'])}
           editMode={this.props.editMode}
         />
         <TrackingTable
+          colHeaders={['Training', 'Expiration', 'Notes']}
           trackingDocuments={personDocuments.getIn(['trainings', 'items'])}
           editMode={this.props.editMode}
         />
         <TrackingTable
+          colHeaders={['Clearances', 'Started', 'completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['clearances', 'items'])}
           editMode={this.props.editMode}
         />

@@ -9,7 +9,8 @@ const TrackingTable = ({
   trackingDocuments,
   editMode,
   inputValues,
-  handleChange
+  handleChange,
+  colHeaders
 }) => {
   console.log(trackingDocuments)
   return (
@@ -19,9 +20,13 @@ const TrackingTable = ({
         <table className='table table-hover'>
           <thead>
             <tr>
-              <th scope='col'>Family Documents</th>
-              <th scope='col'>Received</th>
-              <th scope='col'>Notes</th>
+              {
+                colHeaders.map((header, index) => {
+                  return (
+                    <th key={index} scope='col'>{header}</th>
+                  )
+                })
+              }
             </tr>
           </thead>
           <tbody>
@@ -49,7 +54,8 @@ const TrackingTable = ({
 
 TrackingTable.defaultProps = {
   CardHeader: '',
-  editMode: false
+  editMode: false,
+  colHeaders: ['Training', 'Expiration', 'Notes']
 }
 
 export default TrackingTable
