@@ -35,6 +35,7 @@ export default class TrackingDocument extends React.Component {
                   tableTitle={docs.get('person_type')}
                   setPeopleDocuments={this.updatePeopleDocuments}
                   key={index}
+                  personName={docs.get('person_name')}
                   index={index}
                   peopleDocument={docs}
                   editMode={this.props.editMode}

@@ -4,14 +4,19 @@ import Immutable from 'immutable'
 import {BinarySelectorField} from 'components/common/binarySelectorField'
 
 const TrackingListRowsShow = ({
-  docs
+  docs,
+  index
 }) => {
   return (
     <tr>
-      <td><BinarySelectorField
+      <td><BinarySelectorField     
+        key={index}
+        checked={docs.get('checked')}
+        disabled
         gridClassName='inlineBlock'
-        value={docs.get('checked')}/>
-      {docs.get('title')}
+        id={docs.get('title') + index}
+        value={docs.get('checked')}
+        label={docs.get('title')}/>
       </td>
       <td>
         {docs.get('start_date')}

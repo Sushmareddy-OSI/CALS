@@ -19,22 +19,22 @@ export default class TrackPeopleDocs extends React.Component {
     return (
       <div>
         <div>
-          <h3>{this.props.tableTitle}</h3>
+          <h3>{this.props.tableTitle + ':' + ' ' + this.props.personName + ' '+ 'RFA Documents'}</h3>
         </div>
         <TrackingTable
-          colHeaders={['individual Documents', 'Started', 'completed', 'Notes']}
+          colHeaders={['individual Documents', 'Started', 'Completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['individual_documents', 'items'])}
           tableName='individual_documents'
           editMode={this.props.editMode}
           handleChange={this.handleChange}
         />
-        <TrackingTable
-          colHeaders={['Training', '', 'Expiration', 'Notes']}
+        {/*<TrackingTable
+          colHeaders={['Training', 'Expiration', 'Notes']}
           trackingDocuments={personDocuments.getIn(['trainings', 'items'])}
           editMode={this.props.editMode}
           tableName='trainings'
           handleChange={this.handleChange}
-        />
+        />*/}
         <TrackingTable
           colHeaders={['Clearances', 'Started', 'completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['clearances', 'items'])}

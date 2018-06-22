@@ -17,6 +17,7 @@ const TrackingListRowsEdit = ({
         key={index}
         id={docs.get('title') + index}
         type='checkbox'
+        checked={docs.get('checked')}
         gridClassName='inlineBlock'
         onChange={(event) => handleChange('checked', event.target.checked, index)}
         value={docs.get('checked')}
@@ -27,7 +28,7 @@ const TrackingListRowsEdit = ({
           index={index}
           id={docs.get('title') + index}
           value={docs.get('completed_date')}
-          onChange={(event)  => handleChange('started_date', event.target.value, index)}
+          onChange={(event)  => handleChange('start_date', event.target.value, index)}
         />
       </td>
       <td>
@@ -35,7 +36,7 @@ const TrackingListRowsEdit = ({
           id={docs.get('title') + index}
           index={index}
           value={docs.get('completed_date')}
-          onChange={(event)  => handleChange('completed_date', event.target.value, index)}
+          onChange={(event)  => handleChange('completion_date', event.target.value, index)}
         />
       </td>
       <td>
