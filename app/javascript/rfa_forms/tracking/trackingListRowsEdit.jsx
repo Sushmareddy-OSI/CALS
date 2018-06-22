@@ -17,7 +17,6 @@ const TrackingListRowsEdit = ({
         key={index}
         id={docs.get('title') + index}
         type='checkbox'
-        checked={docs.get('checked')}
         defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
         onChange={(event) => handleChange('checked', event.target.checked, index)}
@@ -28,7 +27,7 @@ const TrackingListRowsEdit = ({
         <DateField
           index={index}
           id={docs.get('title') + index}
-          value={docs.get('completed_date')}
+          value={docs.get('start_date')}
           onChange={(event)  => handleChange('start_date', event.target.value, index)}
         />
       </td>

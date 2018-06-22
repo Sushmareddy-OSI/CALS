@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingTable from './trackingTable'
+import TrackingTableWithEditShow from './trackingTableWithEditShow'
 
 export default class TrackPeopleDocs extends React.Component {
   constructor (props) {
@@ -15,13 +15,12 @@ export default class TrackPeopleDocs extends React.Component {
   }
   render () {
     const personDocuments = this.props.peopleDocument.get('person_documents')
-    console.log(personDocuments.toJS())
     return (
       <div>
         <div>
           <h3>{this.props.tableTitle + ':' + ' ' + this.props.personName + ' '+ 'RFA Documents'}</h3>
         </div>
-        <TrackingTable
+        <TrackingTableWithEditShow
           colHeaders={['individual Documents', 'Started', 'Completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['individual_documents', 'items'])}
           tableName='individual_documents'
@@ -35,7 +34,7 @@ export default class TrackPeopleDocs extends React.Component {
           tableName='trainings'
           handleChange={this.handleChange}
         />*/}
-        <TrackingTable
+        <TrackingTableWithEditShow
           colHeaders={['Clearances', 'Started', 'completed', 'Notes']}
           trackingDocuments={personDocuments.getIn(['clearances', 'items'])}
           editMode={this.props.editMode}

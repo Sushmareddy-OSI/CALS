@@ -11,7 +11,6 @@ const TrackingListRowsShow = ({
     <tr>
       <td><BinarySelectorField     
         key={index}
-        checked={docs.get('checked')}
         defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
         id={docs.get('title') + index}

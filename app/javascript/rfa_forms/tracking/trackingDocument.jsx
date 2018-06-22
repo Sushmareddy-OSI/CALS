@@ -10,13 +10,12 @@ export default class TrackingDocument extends React.Component {
     this.updatePeopleDocuments = this.updatePeopleDocuments.bind(this)
   }
   updatePeopleDocuments (key, value, index) {
-    let peopleDocuments = this.props.trackingDocuments.get('people_documents')
+    let peopleDocuments = this.props.trackingImmutable.get('people_documents')
     let newPeopleDocuments = peopleDocuments.update(index, x => x.set(key, value))
-    this.props.setParentState('people_documents', newPeopleDocuments)
+    this.props.setTrackingPeopleState('people_documents', newPeopleDocuments)
   }
   render () {
-    const peopleDocuments = this.props.trackingDocuments.get('people_documents')
-    const facilityDocuments = this.props.trackingDocuments.get('facility_documents')
+    const peopleDocuments = this.props.trackingImmutable.get('people_documents')
     return (
       <div className='rfa01a-list'>
         <div className='tracking-card-header'>
@@ -25,7 +24,8 @@ export default class TrackingDocument extends React.Component {
         <TrackFaciltyDocs
           setParentState={this.props.setParentState}
           trackingDocuments={this.props.trackingDocuments.facility_documents}
-          editMode={this.props.editMode} />
+          editMode={this.props.editMode} 
+        />
         <div className='people_documents'>
           {
             peopleDocuments.map((docs, index) => {            
