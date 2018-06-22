@@ -18,6 +18,7 @@ const TrackingListRowsEdit = ({
         id={docs.get('title') + index}
         type='checkbox'
         checked={docs.get('checked')}
+        defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
         onChange={(event) => handleChange('checked', event.target.checked, index)}
         value={docs.get('checked')}

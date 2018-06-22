@@ -19,17 +19,16 @@ export default class TrackingDocument extends React.Component {
     const facilityDocuments = this.props.trackingDocuments.get('facility_documents')
     return (
       <div className='rfa01a-list'>
-        {/*<div className='facility_documents'>
-          <TrackFaciltyDocs
-            tableTitle={''}
-            trackingDocuments={facilityDocuments}
-            editMode={this.props.editMode}
-          />
-        </div>*/}
+        <div className='tracking-card-header'>
+          <h3>{this.props.facilityName + ' Family RFA Documents'}</h3>
+        </div>
+        <TrackFaciltyDocs
+          setParentState={this.props.setParentState}
+          trackingDocuments={this.props.trackingDocuments.facility_documents}
+          editMode={this.props.editMode} />
         <div className='people_documents'>
           {
-            peopleDocuments.map((docs, index) => {
-              
+            peopleDocuments.map((docs, index) => {            
               return (
                 <TrackPeopleDocs
                   tableTitle={docs.get('person_type')}
@@ -43,8 +42,8 @@ export default class TrackingDocument extends React.Component {
               )
             })
           }
-        </div> 
-      </div>
+        </div>
+      </div>    
     )
   }
 }

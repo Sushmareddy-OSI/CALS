@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Immutable from 'immutable'
-import TrackingListRowsEdit from './trackingListRowsEdit'
-import TrackingListRowsShow from './trackingListRowsShow'
 
+<<<<<<< HEAD
 export default class TrackingTable extends React.Component {
   constructor(props) {
     super(props)
@@ -57,6 +56,32 @@ export default class TrackingTable extends React.Component {
      </div>
     )
   }
+=======
+const TrackingTable = ({
+  colHeaders,
+  rowsComponent,
+  CardHeader
+}) => {
+  return (
+
+    <div className='rfa01a-list table-responsive'>
+      <h3>{CardHeader}</h3>
+      <table className='table table-hover'>
+        <thead>
+          <tr>
+            {colHeaders.map((colName, index) => {
+              return (<th scope='col' key={index}>{colName}</th>)
+            })}
+          </tr>
+        </thead>
+        <tbody>
+          { rowsComponent }
+        </tbody>
+      </table>
+    </div>
+
+  )
+>>>>>>> 4ba94048764008400eddbcde762b5026d391a61c
 }
  const TrackingTable = ({
    CardHeader,
@@ -108,8 +133,13 @@ export default class TrackingTable extends React.Component {
  }
 
 TrackingTable.defaultProps = {
+  colHeaders: [],
   CardHeader: '',
   editMode: false,
+<<<<<<< HEAD
   colHeaders: ['', '', 'Notes']
+=======
+  rowsComponent: null
+>>>>>>> 4ba94048764008400eddbcde762b5026d391a61c
 }
 
