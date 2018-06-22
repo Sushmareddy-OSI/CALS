@@ -60,7 +60,12 @@ export default class TrackingList extends React.Component {
   render () {
     const trackingDocumentsImmutable = Immutable.fromJS(this.state.tracking.tracking_documents)
     const trackingDocuments = this.state.tracking.tracking_documents
+<<<<<<< HEAD
     const facilityName = this.state.tracking.facility_name ? this.state.tracking.facility_name : ''
+=======
+    const facilityName = this.state.tracking.facility_name || ''
+
+>>>>>>> 12f080542462b60d5c55404d16e1263140754c3a
     return (
       <div className='main_page'>
         <PageHeader
