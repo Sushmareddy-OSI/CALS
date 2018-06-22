@@ -58,54 +58,54 @@ export default class TrackingTable extends React.Component {
     )
   }
 }
- // const TrackingTable = ({
- //   CardHeader,
- //   trackingDocuments,
- //   editMode,
- //   inputValues,
- //   handleChange,
- //   colHeaders
- // }) => {
- //   return (
- //     <div className='container'>
- //       <div className='rfa01a-list table-responsive'>
- //         <h3>{CardHeader}</h3>
- //         <table className='table table-hover'>
- //           <thead>
- //             <tr>
- //               {
- //                 colHeaders.map((header, index) => {
- //                   return (
- //                     <th key={index} scope='col'>{header}</th>
- //                   )
- //                 })
- //               }
- //             </tr>
- //           </thead>
- //           <tbody>
- //             {
- //               trackingDocuments && trackingDocuments.map((docs, index) => {
- //                 return editMode
- //                   ? <TrackingListRowsEdit
- //                     key={index}
- //                     inputValues={inputValues}
- //                     index={index}
- //                     handleChange={handleChange}
- //                     docs={docs}
- //                   /> : <TrackingListRowsShow
- //                     key={index}
- //                     inputValues={inputValues}
- //                     index={index}
- //                     docs={docs}
- //                   />
- //               })
- //             }
- //           </tbody>
- //         </table>
- //       </div>
- //     </div>
- //   )
- // }
+ const TrackingTable = ({
+   CardHeader,
+   trackingDocuments,
+   editMode,
+   inputValues,
+   handleChange,
+   colHeaders
+ }) => {
+   return (
+     <div className='container'>
+       <div className='rfa01a-list table-responsive'>
+         <h3>{CardHeader}</h3>
+         <table className='table table-hover'>
+           <thead>
+             <tr>
+               {
+                 colHeaders.map((header, index) => {
+                   return (
+                     <th key={index} scope='col'>{header}</th>
+                   )
+                 })
+               }
+             </tr>
+           </thead>
+           <tbody>
+             {
+               trackingDocuments && trackingDocuments.map((docs, index) => {
+                 return editMode
+                   ? <TrackingListRowsEdit
+                     key={index}
+                     inputValues={inputValues}
+                     index={index}
+                     handleChange={handleChange}
+                     docs={docs}
+                   /> : <TrackingListRowsShow
+                     key={index}
+                     inputValues={inputValues}
+                     index={index}
+                     docs={docs}
+                   />
+               })
+             }
+           </tbody>
+         </table>
+       </div>
+     </div>
+   )
+ }
 
 TrackingTable.defaultProps = {
   CardHeader: '',

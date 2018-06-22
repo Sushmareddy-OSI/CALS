@@ -18,7 +18,7 @@ export default class TrackingDocument extends React.Component {
     const peopleDocuments = this.props.trackingDocuments.get('people_documents')
     const facilityDocuments = this.props.trackingDocuments.get('facility_documents')
     return (
-      <div className='tracking-edit'>
+      <div className='rfa01a-list'>
         {/*<div className='facility_documents'>
           <TrackFaciltyDocs
             tableTitle={''}
