@@ -21,7 +21,6 @@ export default class TrackingTableWithEditShow extends React.Component {
     console.log(personDocuments.toJS())
     return (
        <div className='rfa01a-list table-responsive'>
-         <h3>{this.props.cardHeader}</h3>
          <table className='table table-hover'>
            <thead>
              <tr>
@@ -40,13 +39,13 @@ export default class TrackingTableWithEditShow extends React.Component {
                  return this.props.editMode
                    ? <TrackingListRowsEdit
                      key={index}
-      				 tableType={this.props.tableType}
+      				       tableType={this.props.tableType}
                      index={index}
                      handleChange={this.updateRowChanges}
                      docs={docs}
                    /> : <TrackingListRowsShow
                      key={index}
-      				 tableType={this.props.tableType}
+      				       tableType={this.props.tableType}
                      index={index}
                      docs={docs}
                    />

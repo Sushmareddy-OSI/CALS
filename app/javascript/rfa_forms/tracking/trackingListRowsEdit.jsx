@@ -21,7 +21,6 @@ const TrackingListRowsEdit = ({
         defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
         onChange={(event) => handleChange('checked', event.target.checked, index)}
-        value={docs.get('checked')}
         label={docs.get('title')}/>
       </td>
       <td>
@@ -53,10 +52,9 @@ const TrackingListRowsEdit = ({
 }
 
 TrackingListRowsEdit.defaultProps = {
-  docs: {
-    'notes': '',
-    'title': '',
-    'checked': false
-  }
+  'notes': '',
+  'title': '',
+  'checked': false
 }
+
 export default TrackingListRowsEdit

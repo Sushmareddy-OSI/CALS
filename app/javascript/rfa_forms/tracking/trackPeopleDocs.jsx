@@ -17,30 +17,23 @@ export default class TrackPeopleDocs extends React.Component {
     const personDocuments = this.props.peopleDocument.get('person_documents')
     return (
       <div>
-        <div>
+        <div className='tracking-card-header'>
           <h3>{this.props.tableTitle + ':' + ' ' + this.props.personName + ' '+ 'RFA Documents'}</h3>
         </div>
         <TrackingTableWithEditShow
           colHeaders={['individual Documents', 'Started', 'Completed', 'Notes']}
           personDocuments={personDocuments.getIn(['individual_documents', 'items'])}
           tableName='individual_documents'
-          tableType={this.props.personName}
+          tableType={this.props.tableTitle + 'individual_documents'}
           editMode={this.props.editMode}
           handleChange={this.handleChange}
         />
-        {/*<TrackingTable
-          colHeaders={['Training', 'Expiration', 'Notes']}
-          trackingDocuments={personDocuments.getIn(['trainings', 'items'])}
-          editMode={this.props.editMode}
-          tableName='trainings'
-          handleChange={this.handleChange}
-        />*/}
         <TrackingTableWithEditShow
-          colHeaders={['Clearances', 'Started', 'completed', 'Notes']}
+          colHeaders={['Clearances', 'Started', 'Completed', 'Notes']}
           personDocuments={personDocuments.getIn(['clearances', 'items'])}
           editMode={this.props.editMode}
           tableName='clearances'
-          tableType={this.props.personName}
+          tableType={this.props.tableTitle + 'Clearances'}
           handleChange={this.handleChange}
         />
       </div>
