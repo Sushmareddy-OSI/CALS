@@ -7,6 +7,7 @@ import LogoHeader from 'components/common/logoHeader'
 import PageHeader from 'components/common/pageHeader'
 import BreadCrumb from 'components/common/breadCrumb'
 import TrackingButtons from 'components/common/pageHeaderButtons/trackingButtons'
+import TrackingSideBar from './trackingSideBar'
 import {urlPrefixHelper} from 'helpers/url_prefix_helper.js.erb'
 import {fetchRequest} from 'helpers/http'
 
@@ -71,7 +72,8 @@ export default class TrackingList extends React.Component {
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
         <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           <div className='left-content col-xs-2 col-sm-2 col-md-2 col-lg-2'>
-            side bar placeholder
+            <TrackingSideBar
+              tracking={trackingDocuments} />
           </div>
           <div className='col-xs-10 col-sm-10 col-md-10 col-lg-10'>
             <TrackingDocument
