@@ -8,14 +8,15 @@ import {BinarySelectorField} from 'components/common/binarySelectorField'
 const TrackingListRowsEdit = ({
   docs,
   index,
-  handleChange
+  handleChange,
+  tableType
 }) => {
   //console.log(docs.toJS())
   return (
     <tr>
       <td><BinarySelectorField
         key={index}
-        id={docs.get('title') + index}
+        id={tableType + 'checked' + index}
         type='checkbox'
         defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
@@ -26,14 +27,14 @@ const TrackingListRowsEdit = ({
       <td>
         <DateField
           index={index}
-          id={docs.get('title') + index}
+          id={tableType + 'start_date' + index}
           value={docs.get('start_date')}
           onChange={(event)  => handleChange('start_date', event.target.value, index)}
         />
       </td>
       <td>
         <DateField
-          id={docs.get('title') + index}
+          id={tableType + 'completion_date' + index}
           index={index}
           value={docs.get('completed_date')}
           onChange={(event)  => handleChange('completion_date', event.target.value, index)}
@@ -41,7 +42,7 @@ const TrackingListRowsEdit = ({
       </td>
       <td>
         <TextAreaComponent
-          id={docs.get('title') + index}
+          id={tableType + 'notes' + index}
           index={index}
           value={docs.get('notes')}
           onChange={(event)  => handleChange('notes', event.target.value, index)}

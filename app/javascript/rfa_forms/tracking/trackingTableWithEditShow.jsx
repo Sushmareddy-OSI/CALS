@@ -10,17 +10,16 @@ export default class TrackingTableWithEditShow extends React.Component {
     this.updateRowChanges = this.updateRowChanges.bind(this)
   }
   updateRowChanges (key, value, index) {
-    let tableDocuments = this.props.trackingDocuments
+    let tableDocuments = this.props.personDocuments
     let newTableDocuments = tableDocuments.update(index, x => x.set(key, value))
     let itemsArray = Immutable.fromJS({'items': []})
     itemsArray = itemsArray.set('items', newTableDocuments)
     this.props.handleChange(this.props.tableName, itemsArray)
   }
   render () {
-    const trackingDocuments = this.props.trackingDocuments
-    //console.log(trackingDocuments.toJS())
+    const personDocuments = this.props.personDocuments
+    console.log(personDocuments.toJS())
     return (
-      <div className='container'>
        <div className='rfa01a-list table-responsive'>
          <h3>{this.props.cardHeader}</h3>
          <table className='table table-hover'>
@@ -37,15 +36,17 @@ export default class TrackingTableWithEditShow extends React.Component {
            </thead>
            <tbody>
              {
-               trackingDocuments && trackingDocuments.map((docs, index) => {
+               personDocuments && personDocuments.map((docs, index) => {
                  return this.props.editMode
                    ? <TrackingListRowsEdit
                      key={index}
+      				 tableType={this.props.tableType}
                      index={index}
                      handleChange={this.updateRowChanges}
                      docs={docs}
                    /> : <TrackingListRowsShow
                      key={index}
+      				 tableType={this.props.tableType}
                      index={index}
                      docs={docs}
                    />
@@ -53,8 +54,11 @@ export default class TrackingTableWithEditShow extends React.Component {
              }
            </tbody>
          </table>
-       </div>
-     </div>
+       	</div>
     )
   }
+}
+
+TrackingTableWithEditShow.defaultProps = {
+	personDocuments: Immutable.fromJS([])
 }

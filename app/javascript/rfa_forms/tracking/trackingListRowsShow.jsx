@@ -5,15 +5,17 @@ import {BinarySelectorField} from 'components/common/binarySelectorField'
 
 const TrackingListRowsShow = ({
   docs,
-  index
+  index,
+  tableType
 }) => {
+  console.log(docs.get('checked'))
   return (
     <tr>
       <td><BinarySelectorField     
         key={index}
         defaultChecked={docs.get('checked')}
         gridClassName='inlineBlock'
-        id={docs.get('title') + index}
+        id={tableType + docs.get('title') + index}
         value={docs.get('checked')}
         label={docs.get('title')}/>
       </td>

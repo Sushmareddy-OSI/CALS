@@ -22,8 +22,9 @@ export default class TrackPeopleDocs extends React.Component {
         </div>
         <TrackingTableWithEditShow
           colHeaders={['individual Documents', 'Started', 'Completed', 'Notes']}
-          trackingDocuments={personDocuments.getIn(['individual_documents', 'items'])}
+          personDocuments={personDocuments.getIn(['individual_documents', 'items'])}
           tableName='individual_documents'
+          tableType={this.props.personName}
           editMode={this.props.editMode}
           handleChange={this.handleChange}
         />
@@ -36,9 +37,10 @@ export default class TrackPeopleDocs extends React.Component {
         />*/}
         <TrackingTableWithEditShow
           colHeaders={['Clearances', 'Started', 'completed', 'Notes']}
-          trackingDocuments={personDocuments.getIn(['clearances', 'items'])}
+          personDocuments={personDocuments.getIn(['clearances', 'items'])}
           editMode={this.props.editMode}
           tableName='clearances'
+          tableType={this.props.personName}
           handleChange={this.handleChange}
         />
       </div>

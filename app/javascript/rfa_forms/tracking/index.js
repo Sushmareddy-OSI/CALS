@@ -60,12 +60,7 @@ export default class TrackingList extends React.Component {
   render () {
     const trackingDocumentsImmutable = Immutable.fromJS(this.state.tracking.tracking_documents)
     const trackingDocuments = this.state.tracking.tracking_documents
-<<<<<<< HEAD
-    const facilityName = this.state.tracking.facility_name ? this.state.tracking.facility_name : ''
-=======
     const facilityName = this.state.tracking.facility_name || ''
-
->>>>>>> 12f080542462b60d5c55404d16e1263140754c3a
     return (
       <div className='main_page'>
         <PageHeader
@@ -78,12 +73,6 @@ export default class TrackingList extends React.Component {
               editProgress={this.editProgress} />} />
         <BreadCrumb
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
-          {/*<TrackingDocument
-            setParentState={this.setTrackingState}
-            trackingDocuments={trackingDocuments}
-            trackingImmutable={trackingDocumentsImmutable}
-            editMode={this.state.cardBeingEdited}
-          />*/}
         <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           <div className='left-content col-xs-2 col-sm-2 col-md-2 col-lg-2'>
             side bar placeholder
