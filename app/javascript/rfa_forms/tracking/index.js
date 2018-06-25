@@ -33,6 +33,7 @@ export default class TrackingList extends React.Component {
 
   cancelProgress (event) {
     this.setState({ cardBeingEdited: false })
+    this.setState({tracking: this.props.tracking})
   }
 
   saveProgress (event) {
@@ -71,11 +72,12 @@ export default class TrackingList extends React.Component {
         <BreadCrumb
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
         <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
-          <div className='left-content col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+          <div className='left-content col-xs-3 col-sm-3 col-md-3 col-lg-3'>
             <TrackingSideBar
+              facilityName={facilityName}
               tracking={trackingDocuments} />
           </div>
-          <div className='col-xs-10 col-sm-10 col-md-10 col-lg-10'>
+          <div className='col-xs-9 col-sm-9 col-md-9 col-lg-9'>
             <TrackingDocument
               facilityName={facilityName}
               setParentState={this.setApplicationState}

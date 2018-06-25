@@ -1,27 +1,76 @@
-.tracking-card-header{
-	box-shadow:0 0.2rem 0 rgba(0, 0, 0, 0.1)
-}
-.inlineBlock {
-	display: inline-block
-}
-.tracking-button{
-	.btn{
-			margin-left:5rem;
-			background: none;
-			border: 2px solid white;
-			color: white;
+//@import './sidebar.scss';
 
-	}
+.nav-menu {
+  font-style: pull-right;
 }
-.tracking-cancel{
-	.btn{
-		background: none;
-		border: none;
-		color:white;
-	}
+
+.nav-link {
+  a.link {
+    text-align: right;
+    font-size: 12px;
+    margin: 10px;
+  }
 }
-table { table-layout: fixed;
-	input[type="checkbox"] +label {
-		white-space: nowrap;
-	}
- }
+
+li.navlink {
+  a.link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  a.link:hover {
+    color: #214F75;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+}
+
+.tracking-card-header {
+  box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.tracking-button {
+  .btn {
+    margin-left: 5rem;
+    background: none;
+    border: 2px solid white;
+    color: white;
+  }
+}
+
+.tracking-cancel {
+  .btn {
+    background: none;
+    border: none;
+    color: white;
+  }
+}
+
+.tracking-sidenav-title {
+  font-size: 14px;
+  color: #707070;
+  white-space: nowrap;
+  margin: 5px;
+}
+
+.tracking-sidenav-label {
+  font-size: 14px;
+  color: #707070;
+  white-space: nowrap;
+  margin: 5px;
+}
+
+table {
+  table-layout: fixed;
+
+  input[type="checkbox"] +label {
+    white-space: nowrap;
+  }
+}
