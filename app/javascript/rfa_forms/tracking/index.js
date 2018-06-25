@@ -31,7 +31,10 @@ export default class TrackingList extends React.Component {
   }
 
   cancelProgress (event) {
-    this.setState({ cardBeingEdited: false })
+    this.setState({
+      cardBeingEdited: false,
+      tracking: this.props.tracking
+    })
   }
 
   saveProgress (event) {
