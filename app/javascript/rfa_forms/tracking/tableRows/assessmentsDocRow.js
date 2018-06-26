@@ -6,7 +6,7 @@ import {DateField} from 'components/common/dateFields'
 import {TextAreaComponent} from 'components/common/textArea'
 import {FormatDateForDisplay, FormatDateForPersistance} from 'helpers/commonHelper.jsx'
 
-const assessmentsDocRow = ({
+const AssessmentsDocRow = ({
   trackingDocuments,
   editMode,
   handleChange
@@ -23,7 +23,7 @@ const assessmentsDocRow = ({
               labelId={'checkLabel' + index}
               label={docs.title}
               gridClassName='col-xs-12'
-              onChange={(event) => handleChange('checked', event.target.checked, index, 'assessments', trackingDocuments)}
+              onChange={(event) => handleChange('checked', event.target.checked, index)}
               defaultChecked={docs.checked}
             />
             </td>
@@ -31,19 +31,20 @@ const assessmentsDocRow = ({
               <DateField
                 id={'assessmentEditSubmittedDate' + index}
                 value={FormatDateForDisplay(docs.submitted_date)}
-                onChange={(event) => handleChange('submitted_date', FormatDateForPersistance(event.target.value), index, 'assessments', trackingDocuments)} />
+                onChange={(event) => handleChange('submitted_date', FormatDateForPersistance(event.target.value), index)} />
             </td>
             <td>
               <DateField
                 id={'assessmentEditApprovedDate' + index}
                 value={FormatDateForDisplay(docs.approved_date)}
-                onChange={(event) => handleChange('approved_date', FormatDateForPersistance(event.target.value), index, 'assessments', trackingDocuments)} />
+                onChange={(event) => handleChange('approved_date', FormatDateForPersistance(event.target.value), index)} />
+
             </td>
             <td>
               <TextAreaComponent
                 id={'assessmentEditText' + index}
                 value={docs.notes}
-                onChange={(event) => handleChange('notes', event.target.value, index, 'assessments', trackingDocuments)} />
+                onChange={(event) => handleChange('notes', event.target.value, index)} />
             </td>
           </tr>
         )
@@ -75,7 +76,7 @@ const assessmentsDocRow = ({
   )
 }
 
-assessmentsDocRow.defaultProps = {
+AssessmentsDocRow.defaultProps = {
   trackingDocuments: {
     'notes': '',
     'title': '',
@@ -83,4 +84,4 @@ assessmentsDocRow.defaultProps = {
     'approved_date': '',
     'submitted_date': ''}
 }
-export default assessmentsDocRow
+export default AssessmentsDocRow
