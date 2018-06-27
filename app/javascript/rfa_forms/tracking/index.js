@@ -89,25 +89,31 @@ export default class TrackingList extends React.Component {
               editProgress={this.editProgress} />} />
         <BreadCrumb
           navigationElements={[<a href={urlPrefixHelper('/')}>RFA Application list</a>]} />
-        <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
-          <div className='left-content col-xs-3 col-sm-3 col-md-3 col-lg-3'>
-            <TrackingSideBar
-              handleHrefClick={this.handleHrefClick}
-              facilityName={facilityName}
-              tracking={trackingDocuments} />
-          </div>
-          <div className='col-xs-9 col-sm-9 col-md-9 col-lg-9'>
-            <TrackingDocument
-              facilityName={facilityName}
-              setParentState={this.setApplicationState}
-              setPeopleDocumentsState={this.setPeopleDocumentsState}
-              trackingDocuments={trackingDocuments}
-              editMode={this.state.cardBeingEdited}
-              handleHrefClick={this.handleHrefClick}
-              isNavLinkActive={this.isNavLinkActive} />
+        <div className='container'>
+          <div className='row'>
+
+            <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+              <div className='left-content col-xs-3 col-sm-3 col-md-3 col-lg-3'>
+                <TrackingSideBar
+                  handleHrefClick={this.handleHrefClick}
+                  facilityName={facilityName}
+                  tracking={trackingDocuments} />
+              </div>
+              <div className='col-xs-9 col-sm-9 col-md-9 col-lg-9'>
+                <TrackingDocument
+                  facilityName={facilityName}
+                  setParentState={this.setApplicationState}
+                  setPeopleDocumentsState={this.setPeopleDocumentsState}
+                  trackingDocuments={trackingDocuments}
+                  editMode={this.state.cardBeingEdited}
+                  handleHrefClick={this.handleHrefClick}
+                  isNavLinkActive={this.isNavLinkActive} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
     )
   }
 }

@@ -18,7 +18,8 @@ const RegularAdultLinks = ({
             key={index}
             text={regularAdult.person_name}
             clickHandler={() => clickHandler('#PresentAdult' + indexes[index] + '-tracking-card')}
-            href={hrefPrefix + '#PresentAdult' + indexes[index] + '-tracking-card'} />
+            href={hrefPrefix + '#PresentAdult' + indexes[index] + '-tracking-card'}
+            preIcon='fa fa-user' />
         </div>
       )
     })

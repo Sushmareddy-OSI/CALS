@@ -18,7 +18,8 @@ const ApplicantLinks = ({
             key={index}
             text={applicant.person_name}
             clickHandler={() => clickHandler('#Applicant' + indexes[index] + '-tracking-card')}
-            href={hrefPrefix + '#Applicant' + indexes[index] + '-tracking-card'} />
+            href={hrefPrefix + '#Applicant' + indexes[index] + '-tracking-card'}
+            preIcon='fa fa-user' />
         </div>
       )
     })

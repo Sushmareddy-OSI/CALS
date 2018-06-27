@@ -18,7 +18,8 @@ const ResidingAdultLinks = ({
             key={index}
             text={residingAdult.person_name}
             clickHandler={() => clickHandler('#ResidingAdult' + indexes[index] + '-tracking-card')}
-            href={hrefPrefix + '#ResidingAdult' + indexes[index] + '-tracking-card'} />
+            href={hrefPrefix + '#ResidingAdult' + indexes[index] + '-tracking-card'}
+            preIcon='fa fa-user' />
         </div>
       )
     })

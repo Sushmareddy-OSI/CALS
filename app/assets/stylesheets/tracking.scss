@@ -67,8 +67,14 @@ li.navlink {
   color: #284b6a;
   font-weight: bold;
   margin: 5px;
+  li.navlink {
+  a.link:hover, a.link:active {
+    color: #214F75;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
-
+}
 .tracking-sidenav-label {
   font-size: 14px;
   color: #707070;
