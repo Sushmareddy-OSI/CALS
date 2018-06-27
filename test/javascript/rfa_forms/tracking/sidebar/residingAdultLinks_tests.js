@@ -268,7 +268,7 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
       hrefPrefix=''
       residingAdults={{adults: peopleDocs.filter(element =>
         element.person_type.indexOf(RESIDING_PERSON_TYPE) === 0),
-        indexes: peopleDocs.reduce((a, e, i) => (e.person_type === RESIDING_PERSON_TYPE)
+      indexes: peopleDocs.reduce((a, e, i) => (e.person_type === RESIDING_PERSON_TYPE)
         ? a.concat(i) : a, [])}} />)
   })
 
@@ -286,4 +286,3 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
     expect(handleNavLinkClickSpy).toHaveBeenCalledWith('#ResidingAdult2-tracking-card')
   })
 })
-

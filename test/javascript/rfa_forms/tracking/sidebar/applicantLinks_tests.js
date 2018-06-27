@@ -268,7 +268,7 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
       hrefPrefix=''
       applicants={{apps: peopleDocs.filter(element =>
         element.person_type.indexOf(APPLICANT_PERSON_TYPE) === 0),
-        indexes: peopleDocs.reduce((a, e, i) => (e.person_type === APPLICANT_PERSON_TYPE)
+      indexes: peopleDocs.reduce((a, e, i) => (e.person_type === APPLICANT_PERSON_TYPE)
         ? a.concat(i) : a, [])}} />)
   })
 
@@ -286,4 +286,3 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
     expect(handleNavLinkClickSpy).toHaveBeenCalledWith('#Applicant0-tracking-card')
   })
 })
-

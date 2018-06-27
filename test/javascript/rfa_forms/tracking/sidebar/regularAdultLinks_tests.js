@@ -268,7 +268,7 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
       hrefPrefix=''
       regularAdults={{adults: peopleDocs.filter(element =>
         element.person_type.indexOf(REGULAR_PERSON_TYPE) === 0),
-        indexes: peopleDocs.reduce((a, e, i) => (e.person_type === REGULAR_PERSON_TYPE)
+      indexes: peopleDocs.reduce((a, e, i) => (e.person_type === REGULAR_PERSON_TYPE)
         ? a.concat(i) : a, [])}} />)
   })
 
@@ -286,4 +286,3 @@ describe('RFA 01a tracking sidebar applicant links ', () => {
     expect(handleNavLinkClickSpy).toHaveBeenCalledWith('#PresentAdult3-tracking-card')
   })
 })
-
