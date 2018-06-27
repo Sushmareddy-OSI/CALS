@@ -78,7 +78,7 @@ export default class TrackingList extends React.Component {
     const trackingDocuments = this.state.tracking.tracking_documents
     const facilityName = this.state.tracking.facility_name || ''
     return (
-      <div className='main_page'>
+      <div className='tracking-main-page'>
         <PageHeader
           headerLabel={facilityName + '-RFA Application'}
           pageHeaderButtons={
