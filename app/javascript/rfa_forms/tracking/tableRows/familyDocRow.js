@@ -24,7 +24,7 @@ const FamilyDocRow = ({
               label={docs.title}
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, index)}
-              checked={docs.checked}
+              defaultChecked={docs.checked}
             />
             </td>
             <td />
@@ -45,15 +45,14 @@ const FamilyDocRow = ({
       })
       : trackingDocuments.items.map((docs, index) => {
         return (
-          <tr key={'familyEdit' + index}>
+          <tr key={'familyShow' + index}>
             <td><BinarySelectorField
               type='checkbox'
               key={index}
               labelId={'checkLabel' + index}
               label={docs.title}
               gridClassName='col-xs-12'
-              onChange={() => {}}
-              checked={docs.checked} />
+              defaultChecked={docs.checked} />
             </td>
             <td />
             <td id={'familyShowRecievedDate' + index}>
