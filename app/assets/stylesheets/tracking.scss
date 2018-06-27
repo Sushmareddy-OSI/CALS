@@ -6,7 +6,7 @@
 
 .nav-link {
   a.link {
-    text-align: right;
+    text-align: center;
     font-size: 12px;
     margin: 10px;
   }
@@ -21,16 +21,24 @@ li.navlink {
     margin: 10px;
   }
 
-  a.link:hover {
+  a.link:hover, a.link:active {
     color: #214F75;
     font-weight: normal;
     text-decoration: underline;
   }
-
-.tracking-card-header {
-  box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.1);
 }
 
+/* .tracking-card-header {
+  box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.1);
+} */
+.tracking-card {
+       background: #fff;
+       margin-bottom: 3rem;
+}
+
+.tracking-table {
+       padding: 0rem 2rem 2rem 2rem;
+}
 .inlineBlock {
   display: inline-block;
 }
@@ -53,9 +61,9 @@ li.navlink {
 }
 
 .tracking-sidenav-title {
-  font-size: 14px;
-  color: #707070;
-  white-space: nowrap;
+  font-size: 16px;
+  color: #284b6a;
+  font-weight: bold;
   margin: 5px;
 }
 

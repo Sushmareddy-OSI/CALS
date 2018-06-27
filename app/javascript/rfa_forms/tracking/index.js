@@ -19,12 +19,14 @@ export default class TrackingList extends React.Component {
     this.cancelProgress = this.cancelProgress.bind(this)
     this.setApplicationState = this.setApplicationState.bind(this)
     this.setPeopleDocumentsState = this.setPeopleDocumentsState.bind(this)
-
+    this.handleHrefClick = this.handleHrefClick.bind(this)
+    this.isNavLinkActive = this.isNavLinkActive.bind(this)
     this.state = {
       user: this.props.user,
       rfaApplication: this.props.rfaApplication,
       tracking: this.props.tracking,
-      cardBeingEdited: false
+      cardBeingEdited: false,
+      activeNavLinkHref: ''
     }
   }
 
@@ -64,10 +66,17 @@ export default class TrackingList extends React.Component {
     this.setState(stateUpdate.toJS())
   }
 
+  handleHrefClick (href) {
+    this.setState({ activeNavLinkHref: href })
+  }
+
+  isNavLinkActive (href) {
+    return this.state.activeNavLinkHref === href
+  }
+
   render () {
     const trackingDocuments = this.state.tracking.tracking_documents
     const facilityName = this.state.tracking.facility_name || ''
-
     return (
       <div className='main_page'>
         <PageHeader
@@ -83,6 +92,8 @@ export default class TrackingList extends React.Component {
         <div className='form-section col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           <div className='left-content col-xs-3 col-sm-3 col-md-3 col-lg-3'>
             <TrackingSideBar
+              handleHrefClick={this.handleHrefClick}
+              isNavLinkActive={this.isNavLinkActive}
               facilityName={facilityName}
               tracking={trackingDocuments} />
           </div>
@@ -92,7 +103,9 @@ export default class TrackingList extends React.Component {
               setParentState={this.setApplicationState}
               setPeopleDocumentsState={this.setPeopleDocumentsState}
               trackingDocuments={trackingDocuments}
-              editMode={this.state.cardBeingEdited} />
+              editMode={this.state.cardBeingEdited}
+              handleHrefClick={this.handleHrefClick}
+              isNavLinkActive={this.isNavLinkActive} />
           </div>
         </div>
       </div>

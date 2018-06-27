@@ -7,6 +7,7 @@ import FamilyDocRow from './tableRows/familyDocRow'
 import TaskAndTrainingDocRow from './tableRows/taskAndTrainingDocRow'
 import AssessmentsDocRow from './tableRows/assessmentsDocRow'
 import CardsGroupLayout from 'components/common/cardsGroupLayout.js'
+import ScrollSpy from 'components/common/scrollSpy'
 
 export default class TrackFacilityDocs extends React.Component {
   constructor (props) {
@@ -47,7 +48,7 @@ export default class TrackFacilityDocs extends React.Component {
     const taskAndTrainingDocuments = facilityDocuments.tasks_and_trainings
 
     return (
-      <div className='tracking-card'>
+      <div className='tracking-card' id='facility-card'>
         <div className='tracking-card-header'>
           <h3>{this.props.facilityName + ' Family RFA Documents'}</h3>
         </div>
