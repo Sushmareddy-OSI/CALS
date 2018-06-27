@@ -93,7 +93,6 @@ export default class TrackingList extends React.Component {
           <div className='left-content col-xs-3 col-sm-3 col-md-3 col-lg-3'>
             <TrackingSideBar
               handleHrefClick={this.handleHrefClick}
-              isNavLinkActive={this.isNavLinkActive}
               facilityName={facilityName}
               tracking={trackingDocuments} />
           </div>
