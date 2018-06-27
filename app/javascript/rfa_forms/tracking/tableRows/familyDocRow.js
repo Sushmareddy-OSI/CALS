@@ -24,7 +24,7 @@ const FamilyDocRow = ({
               label={docs.title}
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, index)}
-              defaultChecked={docs.checked}
+              checked={docs.checked}
             />
             </td>
             <td />
@@ -52,7 +52,8 @@ const FamilyDocRow = ({
               labelId={'checkLabel' + index}
               label={docs.title}
               gridClassName='col-xs-12'
-              defaultChecked={docs.checked} />
+              onChange={() => {}}
+              checked={docs.checked} />
             </td>
             <td />
             <td id={'familyShowRecievedDate' + index}>
