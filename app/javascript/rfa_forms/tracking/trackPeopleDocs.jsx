@@ -65,43 +65,45 @@ export default class TrackPeopleDocs extends React.Component {
 
     return (
       peopleDocuments.map((peopleDoc, peopleIndex) => {
-        const hrefId = peopleDoc.person_type + peopleIndex + '-tracking-card'
+        const hrefId = peopleDoc.person_type.replace(/\s+/g, '') + peopleIndex + '-tracking-card'
 
         return (
-          <ScrollSpy onEnter={() => this.props.handleHrefClick('#' + hrefId)}>
-            <div className='tracking-card' key={peopleIndex} id={hrefId}>
-              <div className='tracking-card-header people_documents'>
-                <h3>{peopleDoc.person_type + ': ' + peopleDoc.person_name + ' RFA Documents'}</h3>
+          <div key={peopleIndex} >
+            <ScrollSpy onEnter={() => this.props.handleHrefClick('#' + hrefId)}>
+              <div className='tracking-card' id={hrefId}>
+                <div className='tracking-card-header people_documents'>
+                  <h3>{peopleDoc.person_type + ': ' + peopleDoc.person_name + ' RFA Documents'}</h3>
+                </div>
+                <TrackingTable
+                  colHeaders={['Individual Documents', 'Started', 'Completed', 'Notes']}
+                  rowsComponent={
+                    <IndividualDocRow
+                      peopleIndex={peopleIndex}
+                      handleChange={this.handleIndividualDocRowChange}
+                      individualDocuments={peopleDoc.person_documents.individual_documents}
+                      editMode={editMode} />
+                  } />
+                { peopleDoc.person_documents.trainings && <TrackingTable
+                  colHeaders={['Training', '', 'Expiration', 'Notes']}
+                  rowsComponent={
+                    <TrainingDocRow
+                      peopleIndex={peopleIndex}
+                      handleChange={this.handleTrainingsDocsChange}
+                      trainingDocuments={peopleDoc.person_documents.trainings}
+                      editMode={editMode} />
+                  } />}
+                <TrackingTable
+                  colHeaders={['Clearances', 'Started', 'Completed', 'Notes']}
+                  rowsComponent={
+                    <ClearancesDocRow
+                      peopleIndex={peopleIndex}
+                      handleChange={this.handleClearancesDocsChange}
+                      clearanceDocuments={peopleDoc.person_documents.clearances}
+                      editMode={editMode} />
+                  } />
               </div>
-              <TrackingTable
-                colHeaders={['Individual Documents', 'Started', 'Completed', 'Notes']}
-                rowsComponent={
-                  <IndividualDocRow
-                    peopleIndex={peopleIndex}
-                    handleChange={this.handleIndividualDocRowChange}
-                    individualDocuments={peopleDoc.person_documents.individual_documents}
-                    editMode={editMode} />
-              } />
-              { peopleDoc.person_documents.trainings && <TrackingTable
-                colHeaders={['Training', '', 'Expiration', 'Notes']}
-                rowsComponent={
-                  <TrainingDocRow
-                    peopleIndex={peopleIndex}
-                    handleChange={this.handleTrainingsDocsChange}
-                    trainingDocuments={peopleDoc.person_documents.trainings}
-                    editMode={editMode} />
-              } />}
-              <TrackingTable
-                colHeaders={['Clearances', 'Started', 'Completed', 'Notes']}
-                rowsComponent={
-                  <ClearancesDocRow
-                    peopleIndex={peopleIndex}
-                    handleChange={this.handleClearancesDocsChange}
-                    clearanceDocuments={peopleDoc.person_documents.clearances}
-                    editMode={editMode} />
-              } />
-            </div>
-          </ScrollSpy>
+            </ScrollSpy>
+          </div>
         )
       }
       )

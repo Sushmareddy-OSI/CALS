@@ -14,13 +14,9 @@ const RESIDING_PERSON_TYPE = 'Residing Adult'
 const REGULAR_PERSON_TYPE = 'Present Adult'
 
 export default class TrackingSideBar extends React.Component {
-  constructor (props) {
-    super(props)
-  }
-
   render () {
     let peopleDocs = this.props.tracking.people_documents
-    debugger
+
     return (
       <div className='nav-menu col-sm-12 pull-right'>
         <Affix
@@ -36,16 +32,26 @@ export default class TrackingSideBar extends React.Component {
                 clickHandler={this.props.handleHrefClick}
                 hrefPrefix=''
                 applicants={{apps: peopleDocs.filter(element =>
-                           element.person_type.indexOf(APPLICANT_PERSON_TYPE) === 0),
-                  indexes: peopleDocs.reduce((a, e, i) => (e.person_type === APPLICANT_PERSON_TYPE) ? a.concat(i) : a, [])}} />
+                  element.person_type.indexOf(APPLICANT_PERSON_TYPE) === 0),
+                indexes: peopleDocs.reduce((a, e, i) => (e.person_type === APPLICANT_PERSON_TYPE)
+                  ? a.concat(i) : a, [])}} />
               <div className='tracking-sidenav-label'>Adults Residing in the Home</div>
               <ResidingAdultSideBar
+                clickHandler={this.props.handleHrefClick}
+                hrefPrefix=''
                 residingAdults={{adults: peopleDocs.filter(element =>
-                           element.person_type.indexOf(RESIDING_PERSON_TYPE) === 0), indexes: peopleDocs.reduce((a, e, i) => (e.person_type === RESIDING_PERSON_TYPE) ? a.concat(i) : a, [])}} />
+                  element.person_type.indexOf(RESIDING_PERSON_TYPE) === 0),
+                indexes: peopleDocs.reduce((a, e, i) => (e.person_type === RESIDING_PERSON_TYPE)
+                  ? a.concat(i) : a, [])}} />
+
               <div className='tracking-sidenav-label'>Adults Regularly Present</div>
               <RegularAdultSideBar
+                clickHandler={this.props.handleHrefClick}
+                hrefPrefix=''
                 regularAdults={{adults: peopleDocs.filter(element =>
-                           element.person_type.indexOf(REGULAR_PERSON_TYPE) === 0), indexes: peopleDocs.reduce((a, e, i) => (e.person_type === REGULAR_PERSON_TYPE) ? a.concat(i) : a, [])}} />
+                  element.person_type.indexOf(REGULAR_PERSON_TYPE) === 0),
+                indexes: peopleDocs.reduce((a, e, i) => (e.person_type === REGULAR_PERSON_TYPE)
+                  ? a.concat(i) : a, [])}} />
 
             </NavLinks>
           </div>

@@ -4,19 +4,21 @@ import PropTypes from 'prop-types'
 import {NavLink} from 'react-wood-duck'
 
 const RegularAdultLinks = ({
-regularAdults,
-clickHandler,
-hrefPrefix
+  regularAdults,
+  clickHandler,
+  hrefPrefix
 }) => {
+  let indexes = regularAdults.indexes
+  regularAdults = regularAdults.adults
   return (
     regularAdults.map((regularAdult, index) => {
       return (
         <div key={index}>
           <NavLink
             key={index}
-            clickHandler={clickHandler}
             text={regularAdult.person_name}
-            href={hrefPrefix} />
+            clickHandler={() => clickHandler('#PresentAdult' + indexes[index] + '-tracking-card')}
+            href={hrefPrefix + '#PresentAdult' + indexes[index] + '-tracking-card'} />
         </div>
       )
     })
@@ -27,5 +29,6 @@ RegularAdultLinks.propTypes = {
 }
 
 RegularAdultLinks.defaultProps = {
+  hrefPrefix: ''
 }
 export default RegularAdultLinks

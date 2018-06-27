@@ -4,21 +4,20 @@ import PropTypes from 'prop-types'
 import {NavLink} from 'react-wood-duck'
 
 const ApplicantLinks = ({
-applicants,
-clickHandler,
-hrefPrefix
+  applicants,
+  clickHandler,
+  hrefPrefix
 }) => {
-  debugger
-  let applicants = applicants.apps
   let indexes = applicants.indexes
+  applicants = applicants.apps
   return (
     applicants.map((applicant, index) => {
       return (
         <div key={index}>
           <NavLink
             key={index}
-            clickHandler={() => clickHandler('#Applicant' + indexes[index] + '-tracking-card')}
             text={applicant.person_name}
+            clickHandler={() => clickHandler('#Applicant' + indexes[index] + '-tracking-card')}
             href={hrefPrefix + '#Applicant' + indexes[index] + '-tracking-card'} />
         </div>
       )
