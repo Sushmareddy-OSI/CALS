@@ -60,20 +60,20 @@ RSpec.feature 'RFATracking', js: true, inaccessible: true do
     expect(page).to have_button 'Save'
     expect(page).to have_button 'Cancel'
     fill_in('familyEditRecievedDate0', with: '11/11/1987', match: :prefer_exact)
-    fill_in('familyEditNotes0', with: 'familyEditNotes0 tpyo cancel' , match: :prefer_exact)
+    fill_in('familyEditNotes0', with: 'familyEditNotes0 typo cancel' , match: :prefer_exact)
     fill_in('taskAndTrainingEditCompletedDate0', with: '11/12/1987', match: :prefer_exact)
-    fill_in('taskAndTrainingEditNotes0', with: 'taskAndTrainingEditNotes0 tpyo cancel', match: :prefer_exact)
+    fill_in('taskAndTrainingEditNotes0', with: 'taskAndTrainingEditNotes0 typo cancel', match: :prefer_exact)
     fill_in('assessmentEditSubmittedDate0', with: '11/13/1987', match: :prefer_exact)
     fill_in('assessmentEditApprovedDate0', with: '11/14/1987', match: :prefer_exact)
-    fill_in('assessmentEditText0', with: 'assessmentEditText0 tpyo cancel', match: :prefer_exact)
+    fill_in('assessmentEditText0', with: 'assessmentEditText0 typo cancel', match: :prefer_exact)
     click_button 'Cancel'
     expect(page).not_to have_content '11/11/1987'
-    expect(page).not_to have_content 'familyEditNotes0 tpyo cancel'
+    expect(page).not_to have_content 'familyEditNotes0 typo cancel'
     expect(page).not_to have_content '11/12/1987'
-    expect(page).not_to have_content 'taskAndTrainingEditNotes0 tpyo cancel'
+    expect(page).not_to have_content 'taskAndTrainingEditNotes0 typo cancel'
     expect(page).not_to have_content '11/13/1987'
     expect(page).not_to have_content '11/14/1987'
-    expect(page).not_to have_content 'assessmentEditText0 tpyo cancel'
+    expect(page).not_to have_content 'assessmentEditText0 typo cancel'
   end
 
   scenario 'visit tracking page from dashboard and Edit Applicant Row', set_auth_header: true do
