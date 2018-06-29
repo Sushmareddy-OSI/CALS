@@ -5,11 +5,12 @@ import Button from 'components/common/button'
 const RfaListPageHeaderButtons = ({
   disbaleRfaApplication,
   submit,
+  buttonWrapClass,
   checkForPriviliges,
   submitForSearch
 }) => {
   return (
-    <div className='col-xs-12 col-sm-6'>
+    <div className={buttonWrapClass}>
       {
         checkForPriviliges
           ? <div className='col-xs-6'>
@@ -31,6 +32,9 @@ const RfaListPageHeaderButtons = ({
     </div>
 
   )
+}
+RfaListPageHeaderButtons.defaultProps = {
+  buttonWrapClass: 'col-xs-12 col-sm-7 col-lg-5'
 }
 
 export default RfaListPageHeaderButtons
