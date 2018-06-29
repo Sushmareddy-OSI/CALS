@@ -14,7 +14,7 @@ const PageHeader = ({
       <div className='page-header-mast'>
         <div className='container'>
           <div className='row'>
-            <div className='col-xs-7'>
+            <div className='col-xs-6'>
               <div className='page-title text-left'>
                 {headerLabel}
               </div>

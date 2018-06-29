@@ -9,10 +9,10 @@ const RfaListPageHeaderButtons = ({
   submitForSearch
 }) => {
   return (
-    <div className='col-xs-5'>
+    <div className='col-xs-6'>
       {
         checkForPriviliges
-          ? <div className='col-xs-8'>
+          ? <div className='col-xs-6'>
             <Button
               onClick={submitForSearch}
               label='Search for Facility'
@@ -21,7 +21,7 @@ const RfaListPageHeaderButtons = ({
       }
       {
         !disbaleRfaApplication
-          ? <div className='col-xs-4'>
+          ? <div className='col-xs-6'>
             <Button
               onClick={submit}
               label='Create RFA Application'
