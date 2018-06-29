@@ -9,7 +9,7 @@ const RfaListPageHeaderButtons = ({
   submitForSearch
 }) => {
   return (
-    <div className='col-xs-6'>
+    <div className='col-xs-12 col-sm-6'>
       {
         checkForPriviliges
           ? <div className='col-xs-6'>
