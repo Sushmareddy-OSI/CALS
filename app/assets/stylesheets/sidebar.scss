@@ -2,6 +2,9 @@
   overflow: scroll;
 }
 
+.collapsible-label{
+  font-size: 2.0rem;
+}
 .nav-menu {
    height: 100vh;
    overflow: auto;
@@ -13,13 +16,12 @@
   font-size:0.5vw;
   }
 }
-
 li.navlink {
   a.link {
     text-decoration:none;
     color: black;
     display: inline-block;
-    font-size: 0.76vw;
+    font-size: 1.5rem;
   }
 
 
@@ -61,14 +63,9 @@ hr.vertical
 
 //The link which when clicked opens the collapsable area
 .Collapsible__trigger {
+  margin-left: 20px;
   display: block;
-  position: relative;
   cursor: pointer;
-  
-  h1 {
-   text-align:right;
-   font-size:2vw;
-   }
 
   &:after {
     font-family: 'FontAwesome';
