@@ -17,7 +17,7 @@ export default class RfaSideBar extends React.Component {
     return (
 
       <div className='col-sm-12'>
-        <div className='nav-menu col-lg-10'>
+        <div className='nav-menu col-sm-10'>
           {/* affixStyles are in PX by default */}
           <Affix viewportOffsetTop={105} affixStyle={{top: 80}}>
             <div className='nav-menu'>
@@ -45,7 +45,7 @@ export default class RfaSideBar extends React.Component {
           </Affix>
         </div>
 
-        <div className='col-lg-2'>
+        <div className='col-sm-2'>
           <Affix>
             <hr className='vertical' />
           </Affix>
