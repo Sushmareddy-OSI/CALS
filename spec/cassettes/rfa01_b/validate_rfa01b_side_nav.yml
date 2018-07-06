@@ -21,9 +21,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:28 GMT
+      - Fri, 06 Jul 2018 20:36:05 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:28
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:05
         GMT
       vary:
       - Accept-Encoding
@@ -42,26 +42,6 @@ http_interactions:
       string: |-
         {
           "items" : [ {
-            "id" : 7871,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 7963,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
             "id" : 6532,
             "other_type_description" : "otherDescription",
             "application_county" : {
@@ -131,143 +111,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 7821,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "zip_extension" : "1111",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "longitude" : -121.25118,
-                "lattitude" : 38.74037,
-                "deliverable" : true,
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : false,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "Spa pool",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "name_prefix" : {
-                  "value" : "Mr.",
-                  "id" : 1
-                },
-                "first_name" : "string",
-                "middle_name" : "string",
-                "last_name" : "string",
-                "name_suffix" : {
-                  "value" : "Jr",
-                  "id" : 5
-                }
-              } ],
-              "directions_to_home" : "Directions here",
-              "home_languages" : [ {
-                "value" : "English",
-                "id" : 6
-              } ]
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 9707,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "zip_extension" : "1111",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "longitude" : -121.25118,
-                "lattitude" : 38.74037,
-                "deliverable" : true,
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : false,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "Spa pool",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "name_prefix" : {
-                  "value" : "Mr.",
-                  "id" : 1
-                },
-                "first_name" : "string",
-                "middle_name" : "string",
-                "last_name" : "string",
-                "name_suffix" : {
-                  "value" : "Jr",
-                  "id" : 5
-                }
-              } ],
-              "directions_to_home" : "Directions here",
-              "home_languages" : [ {
-                "value" : "English",
-                "id" : 6
-              } ]
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 8005,
+            "id" : 8100,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -403,7 +247,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6650,
+            "id" : 8460,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -413,7 +257,86 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 8460,
+            "id" : 9665,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 6692,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "zip_extension" : "1111",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "longitude" : -121.25118,
+                "lattitude" : 38.74037,
+                "deliverable" : true,
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : false,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "Spa pool",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "name_prefix" : {
+                  "value" : "Mr.",
+                  "id" : 1
+                },
+                "first_name" : "string",
+                "middle_name" : "string",
+                "last_name" : "string",
+                "name_suffix" : {
+                  "value" : "Jr",
+                  "id" : 5
+                }
+              } ],
+              "directions_to_home" : "Directions here",
+              "home_languages" : [ {
+                "value" : "English",
+                "id" : 6
+              } ]
+            },
+            "status" : "IN_PROGRESS",
+            "tracking_id" : 259,
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 6650,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -491,7 +414,17 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 9892,
+            "id" : 8058,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 8005,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -559,17 +492,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 10028,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 6789,
+            "id" : 10069,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -637,7 +560,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 8100,
+            "id" : 6237,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -700,22 +623,101 @@ http_interactions:
                 "value" : "English",
                 "id" : 6
               } ]
+            },
+            "status" : "IN_PROGRESS",
+            "tracking_id" : 182,
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 8775,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "zip_extension" : "1111",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "longitude" : -121.25118,
+                "lattitude" : 38.74037,
+                "deliverable" : true,
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : false,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "Spa pool",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "name_prefix" : {
+                  "value" : "Mr.",
+                  "id" : 1
+                },
+                "first_name" : "string",
+                "middle_name" : "string",
+                "last_name" : "string",
+                "name_suffix" : {
+                  "value" : "Jr",
+                  "id" : 5
+                }
+              } ],
+              "directions_to_home" : "Directions here",
+              "home_languages" : [ {
+                "value" : "English",
+                "id" : 6
+              } ]
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 6957,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 7963,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
             },
             "status" : "IN_PROGRESS",
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
             "id" : 7779,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 8058,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -1027,96 +1029,18 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 9939,
+            "id" : 6343,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
               "id" : 34
             },
             "status" : "IN_PROGRESS",
+            "tracking_id" : 208,
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6388,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "zip_extension" : "1111",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "longitude" : -121.25118,
-                "lattitude" : 38.74037,
-                "deliverable" : true,
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : false,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "Spa pool",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "name_prefix" : {
-                  "value" : "Mr.",
-                  "id" : 1
-                },
-                "first_name" : "string",
-                "middle_name" : "string",
-                "last_name" : "string",
-                "name_suffix" : {
-                  "value" : "Jr",
-                  "id" : 5
-                }
-              } ],
-              "directions_to_home" : "Directions here",
-              "home_languages" : [ {
-                "value" : "English",
-                "id" : 6
-              } ]
-            },
-            "status" : "IN_PROGRESS",
-            "tracking_id" : 193,
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 9665,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 8986,
+            "id" : 7091,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -1184,7 +1108,18 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 8681,
+            "id" : 7049,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "tracking_id" : 284,
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 9163,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -1252,7 +1187,18 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 8190,
+            "id" : 8944,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "tracking_id" : 340,
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 6789,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -1320,72 +1266,13 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6692,
+            "id" : 6745,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
               "id" : 34
             },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "zip_extension" : "1111",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "longitude" : -121.25118,
-                "lattitude" : 38.74037,
-                "deliverable" : true,
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "1702 Redoak Ct.",
-                "zip" : "98123",
-                "city" : "Rocklin",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : false,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "Spa pool",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "name_prefix" : {
-                  "value" : "Mr.",
-                  "id" : 1
-                },
-                "first_name" : "string",
-                "middle_name" : "string",
-                "last_name" : "string",
-                "name_suffix" : {
-                  "value" : "Jr",
-                  "id" : 5
-                }
-              } ],
-              "directions_to_home" : "Directions here",
-              "home_languages" : [ {
-                "value" : "English",
-                "id" : 6
-              } ]
-            },
             "status" : "IN_PROGRESS",
-            "tracking_id" : 259,
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
@@ -2091,18 +1978,17 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6343,
+            "id" : 10442,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
               "id" : 34
             },
             "status" : "IN_PROGRESS",
-            "tracking_id" : 208,
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 10069,
+            "id" : 10484,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2170,7 +2056,17 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 7091,
+            "id" : 9939,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 9892,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2248,18 +2144,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 7049,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "tracking_id" : 284,
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 6237,
+            "id" : 6388,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2324,11 +2209,21 @@ http_interactions:
               } ]
             },
             "status" : "IN_PROGRESS",
-            "tracking_id" : 182,
+            "tracking_id" : 193,
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 9163,
+            "id" : 10028,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 9707,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2406,18 +2301,7 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 8944,
-            "other_type_description" : "otherDescription",
-            "application_county" : {
-              "value" : "Sacramento",
-              "id" : 34
-            },
-            "status" : "IN_PROGRESS",
-            "tracking_id" : 340,
-            "resource_family_name" : "",
-            "is_initial_application" : false
-          }, {
-            "id" : 8775,
+            "id" : 8986,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2495,6 +2379,74 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
+            "id" : 8681,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "zip_extension" : "1111",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "longitude" : -121.25118,
+                "lattitude" : 38.74037,
+                "deliverable" : true,
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : false,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "Spa pool",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "name_prefix" : {
+                  "value" : "Mr.",
+                  "id" : 1
+                },
+                "first_name" : "string",
+                "middle_name" : "string",
+                "last_name" : "string",
+                "name_suffix" : {
+                  "value" : "Jr",
+                  "id" : 5
+                }
+              } ],
+              "directions_to_home" : "Directions here",
+              "home_languages" : [ {
+                "value" : "English",
+                "id" : 6
+              } ]
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
             "id" : 6490,
             "other_type_description" : "otherDescription",
             "application_county" : {
@@ -2506,7 +2458,75 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6745,
+            "id" : 8190,
+            "other_type_description" : "otherDescription",
+            "application_county" : {
+              "value" : "Sacramento",
+              "id" : 34
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "zip_extension" : "1111",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "longitude" : -121.25118,
+                "lattitude" : 38.74037,
+                "deliverable" : true,
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : false,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "Spa pool",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "name_prefix" : {
+                  "value" : "Mr.",
+                  "id" : 1
+                },
+                "first_name" : "string",
+                "middle_name" : "string",
+                "last_name" : "string",
+                "name_suffix" : {
+                  "value" : "Jr",
+                  "id" : 5
+                }
+              } ],
+              "directions_to_home" : "Directions here",
+              "home_languages" : [ {
+                "value" : "English",
+                "id" : 6
+              } ]
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "",
+            "is_initial_application" : false
+          }, {
+            "id" : 7871,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
@@ -2516,11 +2536,69 @@ http_interactions:
             "resource_family_name" : "",
             "is_initial_application" : false
           }, {
-            "id" : 6957,
+            "id" : 7821,
             "other_type_description" : "otherDescription",
             "application_county" : {
               "value" : "Sacramento",
               "id" : 34
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "zip_extension" : "1111",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "longitude" : -121.25118,
+                "lattitude" : 38.74037,
+                "deliverable" : true,
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "1702 Redoak Ct.",
+                "zip" : "98123",
+                "city" : "Rocklin",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : false,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "Spa pool",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "name_prefix" : {
+                  "value" : "Mr.",
+                  "id" : 1
+                },
+                "first_name" : "string",
+                "middle_name" : "string",
+                "last_name" : "string",
+                "name_suffix" : {
+                  "value" : "Jr",
+                  "id" : 5
+                }
+              } ],
+              "directions_to_home" : "Directions here",
+              "home_languages" : [ {
+                "value" : "English",
+                "id" : 6
+              } ]
             },
             "status" : "IN_PROGRESS",
             "resource_family_name" : "",
@@ -2892,6 +2970,7 @@ http_interactions:
               "submit_enabled" : true
             },
             "status" : "IN_PROGRESS",
+            "tracking_id" : 398,
             "resource_family_name" : "0ne, applicant & 0two, applicant",
             "is_initial_application" : false
           }, {
@@ -3889,59 +3968,10 @@ http_interactions:
             "tracking_id" : 268,
             "resource_family_name" : "123Monteo, James",
             "is_initial_application" : false
-          }, {
-            "id" : 6620,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "applicants" : [ {
-              "id" : 4083,
-              "first_name" : "James",
-              "middle_name" : "",
-              "last_name" : "123Monteo",
-              "other_names" : [ ],
-              "driver_license_number" : "",
-              "email" : ""
-            } ],
-            "status" : "IN_PROGRESS",
-            "tracking_id" : 246,
-            "resource_family_name" : "123Monteo, James",
-            "is_initial_application" : false
-          }, {
-            "id" : 7345,
-            "application_county" : {
-              "value" : "Los Angeles",
-              "id" : 19
-            },
-            "applicants" : [ {
-              "id" : 4501,
-              "first_name" : "James",
-              "middle_name" : "",
-              "last_name" : "123Monteo",
-              "other_names" : [ ],
-              "driver_license_number" : "",
-              "email" : ""
-            } ],
-            "other_adults" : [ {
-              "id" : 1721,
-              "first_name" : "Dorthy",
-              "middle_name" : "",
-              "last_name" : "",
-              "relationship_to_applicants" : [ {
-                "relationship_to_applicant_freeform" : "riend",
-                "applicant_id" : 4501
-              } ],
-              "is_residing_in_home" : true
-            } ],
-            "status" : "IN_PROGRESS",
-            "tracking_id" : 273,
-            "resource_family_name" : "123Monteo, James",
-            "is_initial_application" : false
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:29 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:06 GMT
 - request:
     method: post
     uri: https://calsapi.preint.cwds.io/rfa-1a-forms
@@ -3963,9 +3993,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:29 GMT
+      - Fri, 06 Jul 2018 20:36:06 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:29
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:06
         GMT
       x-content-type-options:
       - nosniff
@@ -3981,12 +4011,12 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "status" : "DRAFT",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:29 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:06 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/residence-ownership-types
@@ -4008,9 +4038,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:29 GMT
+      - Fri, 06 Jul 2018 20:36:06 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:29
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:06
         GMT
       vary:
       - Accept-Encoding
@@ -4040,7 +4070,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:29 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/ethnicity-types
@@ -4062,9 +4092,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:29 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:29
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4184,7 +4214,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:29 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/address-types
@@ -4206,9 +4236,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4238,7 +4268,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/applicant-relationship-types
@@ -4260,9 +4290,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4298,7 +4328,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/license-types
@@ -4320,9 +4350,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4352,7 +4382,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
@@ -4374,9 +4404,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4412,7 +4442,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-types
@@ -4434,9 +4464,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4469,7 +4499,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
@@ -4491,9 +4521,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4541,7 +4571,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-prefix-types
@@ -4563,9 +4593,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4604,7 +4634,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/phone-number-types
@@ -4626,9 +4656,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4664,7 +4694,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/genders
@@ -4686,9 +4716,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:07 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:07
         GMT
       vary:
       - Accept-Encoding
@@ -4715,7 +4745,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:07 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/education-level-types
@@ -4737,9 +4767,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -4781,7 +4811,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/languages
@@ -4803,9 +4833,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -4925,7 +4955,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/states
@@ -4947,9 +4977,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:30 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:30
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5144,7 +5174,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:30 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/income-types
@@ -5166,9 +5196,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5195,7 +5225,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/marriage-termination-reasons
@@ -5217,9 +5247,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5249,7 +5279,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/age-groups
@@ -5271,9 +5301,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5315,7 +5345,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/sibling-groups
@@ -5337,9 +5367,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5375,7 +5405,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/counties
@@ -5397,9 +5427,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5597,10 +5627,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -5619,9 +5649,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:31 GMT
+      - Fri, 06 Jul 2018 20:36:08 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:31
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:08
         GMT
       vary:
       - Accept-Encoding
@@ -5639,18 +5669,18 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "status" : "DRAFT",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:31 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:08 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525
     body:
       encoding: UTF-8
-      string: '{"id":"10412"}'
+      string: '{"id":"10525"}'
     headers:
       Content-type:
       - application/json
@@ -5666,9 +5696,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       x-content-type-options:
       - nosniff
@@ -5684,72 +5714,12 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "status" : "DRAFT",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/residence-ownership-types
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Authorization:
-      - 1824dcf5-5d18-4753-9dfa-95b889962d1e
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'self' 'unsafe-inline';
-      Content-Type:
-      - application/json
-      Date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
-      Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
-        GMT
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      Content-Length:
-      - '144'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Own",
-            "id" : 1
-          }, {
-            "value" : "Rent",
-            "id" : 2
-          }, {
-            "value" : "Lease",
-            "id" : 3
-          } ]
-        }
-    http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/residence-ownership-types
@@ -5771,9 +5741,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -5803,13 +5773,13 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525
     body:
       encoding: UTF-8
-      string: '{"id":"10412","application_county":{"value":"Madera","id":20}}'
+      string: '{"id":"10525","application_county":{"value":"Madera","id":20}}'
     headers:
       Content-type:
       - application/json
@@ -5825,9 +5795,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       x-content-type-options:
       - nosniff
@@ -5843,7 +5813,7 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -5852,7 +5822,7 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/ethnicity-types
@@ -5874,9 +5844,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -5996,7 +5966,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/address-types
@@ -6018,9 +5988,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6050,10 +6020,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:34 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412/applicants
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525/applicants
     body:
       encoding: UTF-8
       string: '{"email":"","date_of_birth":"","first_name":"alpha0","middle_name":"","last_name":"beta0","driver_license_number":"","other_names":[]}'
@@ -6072,9 +6042,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:34 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       x-content-type-options:
       - nosniff
@@ -6090,7 +6060,7 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 6433,
+          "id" : 6512,
           "first_name" : "alpha0",
           "middle_name" : "",
           "last_name" : "beta0",
@@ -6099,7 +6069,7 @@ http_interactions:
           "email" : ""
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/applicant-relationship-types
@@ -6121,9 +6091,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6159,10 +6129,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412/applicants
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525/applicants
     body:
       encoding: UTF-8
       string: '{"email":"","date_of_birth":"","first_name":"alpha1","middle_name":"","last_name":"beta1","driver_license_number":"","other_names":[]}'
@@ -6181,9 +6151,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       x-content-type-options:
       - nosniff
@@ -6199,7 +6169,7 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 6434,
+          "id" : 6513,
           "first_name" : "alpha1",
           "middle_name" : "",
           "last_name" : "beta1",
@@ -6208,7 +6178,7 @@ http_interactions:
           "email" : ""
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/license-types
@@ -6230,9 +6200,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6262,13 +6232,13 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412/other-adults
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525/other-adults
     body:
       encoding: UTF-8
-      string: '{"first_name":"alpha2","middle_name":"","last_name":"beta2","relationship_to_applicants":[{"applicant_id":6433,"relationship_to_applicant_freeform":""}]}'
+      string: '{"first_name":"alpha2","middle_name":"","last_name":"beta2","relationship_to_applicants":[{"applicant_id":6512,"relationship_to_applicant_freeform":""}]}'
     headers:
       Content-type:
       - application/json
@@ -6284,9 +6254,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       x-content-type-options:
       - nosniff
@@ -6302,17 +6272,17 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 2523,
+          "id" : 2558,
           "first_name" : "alpha2",
           "middle_name" : "",
           "last_name" : "beta2",
           "relationship_to_applicants" : [ {
             "relationship_to_applicant_freeform" : "",
-            "applicant_id" : 6433
+            "applicant_id" : 6512
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
@@ -6334,9 +6304,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6372,10 +6342,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -6394,9 +6364,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6407,20 +6377,20 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '310'
+      - '311'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
           "applicants" : [ {
-            "id" : 6433,
+            "id" : 6512,
             "first_name" : "alpha0",
             "middle_name" : "",
             "last_name" : "beta0",
@@ -6428,7 +6398,7 @@ http_interactions:
             "driver_license_number" : "",
             "email" : ""
           }, {
-            "id" : 6434,
+            "id" : 6513,
             "first_name" : "alpha1",
             "middle_name" : "",
             "last_name" : "beta1",
@@ -6437,13 +6407,13 @@ http_interactions:
             "email" : ""
           } ],
           "other_adults" : [ {
-            "id" : 2523,
+            "id" : 2558,
             "first_name" : "alpha2",
             "middle_name" : "",
             "last_name" : "beta2",
             "relationship_to_applicants" : [ {
               "relationship_to_applicant_freeform" : "",
-              "applicant_id" : 6433
+              "applicant_id" : 6512
             } ]
           } ],
           "status" : "IN_PROGRESS",
@@ -6451,7 +6421,7 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-types
@@ -6479,9 +6449,9 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       Vary:
       - Accept-Encoding
@@ -6514,7 +6484,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-types
@@ -6536,9 +6506,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:12 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:12
         GMT
       vary:
       - Accept-Encoding
@@ -6571,7 +6541,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:12 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
@@ -6593,9 +6563,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -6643,7 +6613,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-prefix-types
@@ -6665,9 +6635,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -6706,7 +6676,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/phone-number-types
@@ -6728,9 +6698,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -6766,7 +6736,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/genders
@@ -6788,9 +6758,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -6817,7 +6787,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/education-level-types
@@ -6839,9 +6809,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -6883,7 +6853,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/languages
@@ -6905,9 +6875,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -7027,7 +6997,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/states
@@ -7049,9 +7019,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:35 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:35
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -7246,7 +7216,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:35 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/income-types
@@ -7268,9 +7238,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:36 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:36
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -7297,7 +7267,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:36 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/marriage-termination-reasons
@@ -7319,9 +7289,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:37 GMT
+      - Fri, 06 Jul 2018 20:36:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:37
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:13
         GMT
       vary:
       - Accept-Encoding
@@ -7351,7 +7321,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:37 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/age-groups
@@ -7373,9 +7343,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:37 GMT
+      - Fri, 06 Jul 2018 20:36:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:37
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:14
         GMT
       vary:
       - Accept-Encoding
@@ -7417,7 +7387,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:37 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/sibling-groups
@@ -7439,9 +7409,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:37 GMT
+      - Fri, 06 Jul 2018 20:36:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:37
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:14
         GMT
       vary:
       - Accept-Encoding
@@ -7477,7 +7447,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:37 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/counties
@@ -7499,9 +7469,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:37 GMT
+      - Fri, 06 Jul 2018 20:36:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:37
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:14
         GMT
       vary:
       - Accept-Encoding
@@ -7699,10 +7669,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:37 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:14 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10412?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/10525?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -7721,9 +7691,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Fri, 06 Jul 2018 18:45:37 GMT
+      - Fri, 06 Jul 2018 20:36:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 18:45:37
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 05-Jul-2018 20:36:14
         GMT
       vary:
       - Accept-Encoding
@@ -7734,20 +7704,20 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '310'
+      - '311'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 10412,
+          "id" : 10525,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
           "applicants" : [ {
-            "id" : 6433,
+            "id" : 6512,
             "first_name" : "alpha0",
             "middle_name" : "",
             "last_name" : "beta0",
@@ -7755,7 +7725,7 @@ http_interactions:
             "driver_license_number" : "",
             "email" : ""
           }, {
-            "id" : 6434,
+            "id" : 6513,
             "first_name" : "alpha1",
             "middle_name" : "",
             "last_name" : "beta1",
@@ -7764,13 +7734,13 @@ http_interactions:
             "email" : ""
           } ],
           "other_adults" : [ {
-            "id" : 2523,
+            "id" : 2558,
             "first_name" : "alpha2",
             "middle_name" : "",
             "last_name" : "beta2",
             "relationship_to_applicants" : [ {
               "relationship_to_applicant_freeform" : "",
-              "applicant_id" : 6433
+              "applicant_id" : 6512
             } ]
           } ],
           "status" : "IN_PROGRESS",
@@ -7778,5 +7748,5 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 18:45:37 GMT
+  recorded_at: Fri, 06 Jul 2018 20:36:14 GMT
 recorded_with: VCR 3.0.3

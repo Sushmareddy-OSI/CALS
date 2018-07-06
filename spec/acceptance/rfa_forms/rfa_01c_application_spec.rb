@@ -8,6 +8,7 @@ RSpec.feature 'RFA01C', js: true, inaccessible: true do
 
   scenario 'validate rfa01c', set_auth_header: true do
     visit root_path
+    page.driver.browser.manage.window.resize_to 1200, 800
     click_button 'Create RFA Application'
     first_name = 'Kimberley'
     last_name = 'RReily'
@@ -47,6 +48,7 @@ RSpec.feature 'RFA01C', js: true, inaccessible: true do
 
   scenario 'validate submit disabled when Rfa-01A is not valid', set_auth_header: true do
     visit root_path
+    page.driver.browser.manage.window.resize_to 1200, 800
     click_button 'Create RFA Application'
     first_name = 'Dillonish'
     last_name = 'Wisozkish'
@@ -63,6 +65,7 @@ RSpec.feature 'RFA01C', js: true, inaccessible: true do
 
   scenario 'validate submit enabled when Rfa-01A is valid', set_auth_header: true do
     visit root_path
+    page.driver.browser.manage.window.resize_to 1200, 800
     click_button 'Create RFA Application'
     first_name = 'Paul'
     last_name = 'Smit'
@@ -85,7 +88,7 @@ RSpec.feature 'RFA01C', js: true, inaccessible: true do
     select 'Own', from: 'residenceTypes'
     find('#weaponsYes').click
     find('#body_of_water_existYes').click
-    find('#others_using_residence_as_mailingYes').click 
+    find('#others_using_residence_as_mailingYes').click
     fill_in('residence.other_people_using_residence_as_mailing[0].first_name', with: Faker::Name.first_name, match: :prefer_exact)
     fill_in('residence.other_people_using_residence_as_mailing[0].last_name', with: Faker::Name.first_name, match: :prefer_exact)
     page.find(:css, '.languages').click
