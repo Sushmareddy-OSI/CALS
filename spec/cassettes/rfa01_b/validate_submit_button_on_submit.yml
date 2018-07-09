@@ -21,9 +21,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:34 GMT
+      - Mon, 09 Jul 2018 21:35:06 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:34
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:06
         GMT
       vary:
       - Accept-Encoding
@@ -939,215 +939,6 @@ http_interactions:
             "resource_family_name" : "ksjbv, lkj",
             "is_initial_application" : false
           }, {
-            "id" : 11362,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "2870 something else",
-                "zip" : "12345",
-                "city" : "Sacremento",
-                "state" : {
-                  "value" : "Alaska",
-                  "id" : "AK"
-                },
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "",
-                "zip" : "",
-                "city" : "",
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : true,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "first_name" : "Madeline",
-                "middle_name" : "",
-                "last_name" : "Diamond"
-              } ],
-              "directions_to_home" : "",
-              "home_languages" : [ {
-                "value" : "American Sign Language",
-                "id" : 1
-              }, {
-                "value" : "Armenian",
-                "id" : 3
-              } ]
-            },
-            "applicants" : [ {
-              "id" : 7055,
-              "first_name" : "Geovanni",
-              "middle_name" : "",
-              "last_name" : "Moen",
-              "other_names" : [ ],
-              "date_of_birth" : "1111-11-11",
-              "gender" : {
-                "value" : "Male",
-                "id" : 1
-              },
-              "driver_license_number" : "",
-              "email" : "",
-              "phones" : [ {
-                "phone_type" : {
-                  "value" : "Home",
-                  "id" : 2
-                },
-                "number" : "2012222345",
-                "preferred" : false
-              } ],
-              "rfa1b_form" : {
-                "id" : 1276,
-                "application_county" : {
-                  "value" : "Madera",
-                  "id" : 20
-                },
-                "applicant_first_name" : "Geovanni",
-                "applicant_middle_name" : "",
-                "applicant_last_name" : "Moen",
-                "residence_address" : {
-                  "street_address" : "2870 something else",
-                  "zip" : "12345",
-                  "city" : "Sacremento",
-                  "state" : {
-                    "value" : "Alaska",
-                    "id" : "AK"
-                  },
-                  "type" : {
-                    "value" : "Residential",
-                    "id" : 1
-                  }
-                },
-                "date_of_birth" : "1111-11-11",
-                "driver_license" : ""
-              }
-            } ],
-            "metadata" : {
-              "submit_enabled" : true
-            },
-            "status" : "IN_PROGRESS",
-            "resource_family_name" : "Moen, Geovanni",
-            "is_initial_application" : false
-          }, {
-            "id" : 11374,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "2870 something else",
-                "zip" : "12345",
-                "city" : "Sacremento",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "",
-                "zip" : "",
-                "city" : "",
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : true,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "first_name" : "Kitty",
-                "middle_name" : "",
-                "last_name" : "Hayley"
-              } ],
-              "directions_to_home" : "",
-              "home_languages" : [ {
-                "value" : "American Sign Language",
-                "id" : 1
-              }, {
-                "value" : "Armenian",
-                "id" : 3
-              } ]
-            },
-            "applicants" : [ {
-              "id" : 7066,
-              "first_name" : "Geovanni",
-              "middle_name" : "",
-              "last_name" : "Moen",
-              "other_names" : [ ],
-              "date_of_birth" : "1111-11-11",
-              "gender" : {
-                "value" : "Male",
-                "id" : 1
-              },
-              "driver_license_number" : "",
-              "email" : "",
-              "phones" : [ {
-                "phone_type" : {
-                  "value" : "Home",
-                  "id" : 2
-                },
-                "number" : "2012222345",
-                "preferred" : false
-              } ],
-              "rfa1b_form" : {
-                "id" : 1280,
-                "application_county" : {
-                  "value" : "Madera",
-                  "id" : 20
-                },
-                "resource_family_name" : "test",
-                "applicant_first_name" : "first name",
-                "applicant_middle_name" : "",
-                "applicant_last_name" : "last name",
-                "residence_address" : {
-                  "street_address" : "2870 something else2870 something else",
-                  "zip" : "12345",
-                  "city" : "Sacremento",
-                  "state" : {
-                    "value" : "California",
-                    "id" : "CA"
-                  }
-                },
-                "date_of_birth" : "1111-11-11",
-                "driver_license" : "",
-                "metadata" : {
-                  "submit_enabled" : true
-                }
-              }
-            } ],
-            "placement_home_id" : "IJdBNTF0X6",
-            "metadata" : {
-              "submit_enabled" : true
-            },
-            "status" : "SUBMITTED",
-            "resource_family_name" : "Moen, Geovanni",
-            "is_initial_application" : false
-          }, {
             "id" : 11363,
             "application_county" : {
               "value" : "Madera",
@@ -1273,6 +1064,110 @@ http_interactions:
             "resource_family_name" : "Moen, Geovanni",
             "is_initial_application" : false
           }, {
+            "id" : 11362,
+            "application_county" : {
+              "value" : "Madera",
+              "id" : 20
+            },
+            "residence" : {
+              "addresses" : [ {
+                "street_address" : "2870 something else",
+                "zip" : "12345",
+                "city" : "Sacremento",
+                "state" : {
+                  "value" : "Alaska",
+                  "id" : "AK"
+                },
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              }, {
+                "street_address" : "",
+                "zip" : "",
+                "city" : "",
+                "type" : {
+                  "value" : "Mailing",
+                  "id" : 3
+                }
+              } ],
+              "physical_mailing_similar" : true,
+              "residence_ownership" : {
+                "value" : "Own",
+                "id" : 1
+              },
+              "weapon_in_home" : true,
+              "body_of_water_exist" : true,
+              "body_of_water_description" : "",
+              "others_using_residence_as_mailing" : true,
+              "other_people_using_residence_as_mailing" : [ {
+                "first_name" : "Madeline",
+                "middle_name" : "",
+                "last_name" : "Diamond"
+              } ],
+              "directions_to_home" : "",
+              "home_languages" : [ {
+                "value" : "American Sign Language",
+                "id" : 1
+              }, {
+                "value" : "Armenian",
+                "id" : 3
+              } ]
+            },
+            "applicants" : [ {
+              "id" : 7055,
+              "first_name" : "Geovanni",
+              "middle_name" : "",
+              "last_name" : "Moen",
+              "other_names" : [ ],
+              "date_of_birth" : "1111-11-11",
+              "gender" : {
+                "value" : "Male",
+                "id" : 1
+              },
+              "driver_license_number" : "",
+              "email" : "",
+              "phones" : [ {
+                "phone_type" : {
+                  "value" : "Home",
+                  "id" : 2
+                },
+                "number" : "2012222345",
+                "preferred" : false
+              } ],
+              "rfa1b_form" : {
+                "id" : 1276,
+                "application_county" : {
+                  "value" : "Madera",
+                  "id" : 20
+                },
+                "applicant_first_name" : "Geovanni",
+                "applicant_middle_name" : "",
+                "applicant_last_name" : "Moen",
+                "residence_address" : {
+                  "street_address" : "2870 something else",
+                  "zip" : "12345",
+                  "city" : "Sacremento",
+                  "state" : {
+                    "value" : "Alaska",
+                    "id" : "AK"
+                  },
+                  "type" : {
+                    "value" : "Residential",
+                    "id" : 1
+                  }
+                },
+                "date_of_birth" : "1111-11-11",
+                "driver_license" : ""
+              }
+            } ],
+            "metadata" : {
+              "submit_enabled" : true
+            },
+            "status" : "IN_PROGRESS",
+            "resource_family_name" : "Moen, Geovanni",
+            "is_initial_application" : false
+          }, {
             "id" : 11364,
             "application_county" : {
               "value" : "Madera",
@@ -1374,132 +1269,6 @@ http_interactions:
               "submit_enabled" : true
             },
             "status" : "IN_PROGRESS",
-            "resource_family_name" : "Moen, Geovanni",
-            "is_initial_application" : false
-          }, {
-            "id" : 11379,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "residence" : {
-              "addresses" : [ {
-                "street_address" : "2870 something else",
-                "zip" : "12345",
-                "city" : "Sacremento",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                },
-                "type" : {
-                  "value" : "Residential",
-                  "id" : 1
-                }
-              }, {
-                "street_address" : "",
-                "zip" : "",
-                "city" : "",
-                "type" : {
-                  "value" : "Mailing",
-                  "id" : 3
-                }
-              } ],
-              "physical_mailing_similar" : true,
-              "residence_ownership" : {
-                "value" : "Own",
-                "id" : 1
-              },
-              "weapon_in_home" : true,
-              "body_of_water_exist" : true,
-              "body_of_water_description" : "",
-              "others_using_residence_as_mailing" : true,
-              "other_people_using_residence_as_mailing" : [ {
-                "first_name" : "Alden",
-                "middle_name" : "",
-                "last_name" : "Myrna"
-              } ],
-              "directions_to_home" : "",
-              "home_languages" : [ {
-                "value" : "American Sign Language",
-                "id" : 1
-              }, {
-                "value" : "Armenian",
-                "id" : 3
-              } ]
-            },
-            "applicants" : [ {
-              "id" : 7068,
-              "first_name" : "Geovanni",
-              "middle_name" : "",
-              "last_name" : "Moen",
-              "other_names" : [ ],
-              "date_of_birth" : "1111-11-11",
-              "gender" : {
-                "value" : "Male",
-                "id" : 1
-              },
-              "driver_license_number" : "",
-              "email" : "",
-              "phones" : [ {
-                "phone_type" : {
-                  "value" : "Home",
-                  "id" : 2
-                },
-                "number" : "2012222345",
-                "preferred" : false
-              } ],
-              "rfa1b_form" : {
-                "id" : 1281,
-                "application_county" : {
-                  "value" : "Madera",
-                  "id" : 20
-                },
-                "convicted_in_california" : true,
-                "convicted_in_another_state" : true,
-                "arrested_for_crime" : true,
-                "resource_family_name" : "test",
-                "applicant_first_name" : "first name",
-                "applicant_middle_name" : "",
-                "applicant_last_name" : "last name",
-                "residence_address" : {
-                  "street_address" : "2870 something else2870 something else",
-                  "zip" : "12345",
-                  "city" : "Sacremento",
-                  "state" : {
-                    "value" : "California",
-                    "id" : "CA"
-                  }
-                },
-                "date_of_birth" : "1111-11-11",
-                "driver_license" : "",
-                "convicted_in_california_disclosures" : [ {
-                  "offense" : "test offense",
-                  "offense_city" : "test offense city",
-                  "when_offense_happen" : "date of offense",
-                  "offense_details" : "offense details"
-                } ],
-                "convicted_in_another_state_disclosures" : [ {
-                  "offense" : "outside test offense",
-                  "offense_city" : "outside test offense city",
-                  "when_offense_happen" : "outside date of offense",
-                  "offense_details" : "outside offense details"
-                } ],
-                "arrested_for_crime_disclosures" : [ {
-                  "offense" : "cohab test offense",
-                  "offense_city" : "cohab test offense city",
-                  "when_offense_happen" : "cohab date of offense",
-                  "offense_details" : "cohab offense details"
-                } ],
-                "metadata" : {
-                  "submit_enabled" : true
-                }
-              }
-            } ],
-            "placement_home_id" : "MhSlqrq0X6",
-            "metadata" : {
-              "submit_enabled" : true
-            },
-            "status" : "SUBMITTED",
             "resource_family_name" : "Moen, Geovanni",
             "is_initial_application" : false
           }, {
@@ -2989,7 +2758,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:34 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:07 GMT
 - request:
     method: post
     uri: https://calsapi.preint.cwds.io/rfa-1a-forms
@@ -3011,9 +2780,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:13
         GMT
       x-content-type-options:
       - nosniff
@@ -3029,12 +2798,12 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "status" : "DRAFT",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/residence-ownership-types
@@ -3056,9 +2825,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:13 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:13
         GMT
       vary:
       - Accept-Encoding
@@ -3088,7 +2857,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:13 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/ethnicity-types
@@ -3110,9 +2879,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3232,7 +3001,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/address-types
@@ -3254,9 +3023,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3286,7 +3055,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/applicant-relationship-types
@@ -3308,9 +3077,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3346,7 +3115,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/license-types
@@ -3368,9 +3137,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3400,7 +3169,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
@@ -3422,9 +3191,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:41 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:41
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3460,7 +3229,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:41 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-types
@@ -3482,9 +3251,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3517,7 +3286,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
@@ -3539,9 +3308,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3589,7 +3358,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-prefix-types
@@ -3611,9 +3380,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3652,7 +3421,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/phone-number-types
@@ -3674,9 +3443,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3712,7 +3481,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/genders
@@ -3734,9 +3503,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:14 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:14
         GMT
       vary:
       - Accept-Encoding
@@ -3763,7 +3532,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:14 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/education-level-types
@@ -3785,9 +3554,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -3829,7 +3598,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/languages
@@ -3851,9 +3620,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -3973,7 +3742,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/states
@@ -3995,9 +3764,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -4192,7 +3961,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/income-types
@@ -4214,9 +3983,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:42 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:42
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -4243,7 +4012,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:42 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/marriage-termination-reasons
@@ -4265,9 +4034,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:43 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:43
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -4297,7 +4066,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:43 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/age-groups
@@ -4319,9 +4088,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:43 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:43
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -4363,7 +4132,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:43 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:15 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/sibling-groups
@@ -4385,9 +4154,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:43 GMT
+      - Mon, 09 Jul 2018 21:35:15 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:43
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:15
         GMT
       vary:
       - Accept-Encoding
@@ -4423,7 +4192,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:43 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:16 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/counties
@@ -4445,9 +4214,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:43 GMT
+      - Mon, 09 Jul 2018 21:35:16 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:43
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:16
         GMT
       vary:
       - Accept-Encoding
@@ -4645,10 +4414,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:43 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:16 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -4667,9 +4436,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:44 GMT
+      - Mon, 09 Jul 2018 21:35:16 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:44
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:16
         GMT
       vary:
       - Accept-Encoding
@@ -4687,12 +4456,12 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "status" : "DRAFT",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:44 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:16 GMT
 - request:
     method: get
     uri: https://geo.preint.cwds.io/address/suggest/2870%20something%20else
@@ -4712,9 +4481,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:52 GMT
+      - Mon, 09 Jul 2018 21:35:22 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:52
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:22
         GMT
       vary:
       - Accept-Encoding
@@ -4726,13 +4495,13 @@ http_interactions:
       encoding: UTF-8
       string: "[ ]"
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:53 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:22 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374
     body:
       encoding: UTF-8
-      string: '{"id":"11380","metadata":{"submit_enabled":true}}'
+      string: '{"id":"11374","metadata":{"submit_enabled":true}}'
     headers:
       Content-type:
       - application/json
@@ -4748,9 +4517,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:54 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:54
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       x-content-type-options:
       - nosniff
@@ -4766,7 +4535,7 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "metadata" : {
             "submit_enabled" : true
           },
@@ -4774,7 +4543,7 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:54 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/residence-ownership-types
@@ -4796,9 +4565,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:54 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:54
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       vary:
       - Accept-Encoding
@@ -4828,13 +4597,13 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:54 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374
     body:
       encoding: UTF-8
-      string: '{"id":"11380","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
+      string: '{"id":"11374","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
     headers:
       Content-type:
       - application/json
@@ -4850,9 +4619,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:54 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:54
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       x-content-type-options:
       - nosniff
@@ -4868,7 +4637,7 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -4880,7 +4649,7 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:54 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/ethnicity-types
@@ -4902,9 +4671,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:54 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:54
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       vary:
       - Accept-Encoding
@@ -5024,13 +4793,13 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:54 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/applicants
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/applicants
     body:
       encoding: UTF-8
-      string: '{"email":"","date_of_birth":"1111-11-11","first_name":"Paul","middle_name":"k","last_name":"Smit","driver_license_number":"","gender":{"id":"1","value":"Male"},"phones":[{"number":"2012222345","preferred":false,"phone_type":{"id":2,"value":"Home"}}],"other_names":[]}'
+      string: '{"email":"","date_of_birth":"1111-11-11","first_name":"Geovanni","middle_name":"","last_name":"Moen","driver_license_number":"","gender":{"id":"1","value":"Male"},"phones":[{"number":"2012222345","preferred":false,"phone_type":{"id":2,"value":"Home"}}],"other_names":[]}'
     headers:
       Content-type:
       - application/json
@@ -5046,9 +4815,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:54 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:54
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       x-content-type-options:
       - nosniff
@@ -5057,17 +4826,17 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '393'
+      - '396'
       connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: |-
         {
-          "id" : 7069,
-          "first_name" : "Paul",
-          "middle_name" : "k",
-          "last_name" : "Smit",
+          "id" : 7066,
+          "first_name" : "Geovanni",
+          "middle_name" : "",
+          "last_name" : "Moen",
           "other_names" : [ ],
           "date_of_birth" : "1111-11-11",
           "gender" : {
@@ -5086,7 +4855,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:54 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/address-types
@@ -5108,9 +4877,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       vary:
       - Accept-Encoding
@@ -5140,14 +4909,74 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
+- request:
+    method: get
+    uri: https://calsapi.preint.cwds.io/dictionaries/applicant-relationship-types
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      Authorization:
+      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      content-security-policy:
+      - default-src 'self' 'unsafe-inline';
+      content-type:
+      - application/json
+      date:
+      - Mon, 09 Jul 2018 21:35:34 GMT
+      set-cookie:
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
+        GMT
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      content-length:
+      - '151'
+      connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "items" : [ {
+            "value" : "Married",
+            "id" : 1
+          }, {
+            "value" : "Domestic Partnership",
+            "id" : 2
+          }, {
+            "value" : "Related (Family Member)",
+            "id" : 3
+          }, {
+            "value" : "Cohabitants",
+            "id" : 4
+          }, {
+            "value" : "Other",
+            "id" : 5
+          } ]
+        }
+    http_version: 
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/residence
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/residence
     body:
       encoding: UTF-8
       string: '{"physical_mailing_similar":"true","weapon_in_home":"true","body_of_water_exist":"true","body_of_water_description":"","others_using_residence_as_mailing":"true","directions_to_home":"","residence_ownership":{"id":"1","value":"Own"},"home_languages":[{"id":1,"value":"American
-        Sign Language"},{"id":3,"value":"Armenian"}],"other_people_using_residence_as_mailing":[{"first_name":"Rebecca","middle_name":"","last_name":"Alek"}],"addresses":[{"street_address":"2870
+        Sign Language"},{"id":3,"value":"Armenian"}],"other_people_using_residence_as_mailing":[{"first_name":"Kitty","middle_name":"","last_name":"Hayley"}],"addresses":[{"street_address":"2870
         something else","zip":"12345","city":"Sacremento","state":{"id":"CA","value":"California"},"type":{"id":"1","value":"Residential"}},{"street_address":"","zip":"","city":"","type":{"id":"3","value":"Mailing"}}]}'
     headers:
       Content-type:
@@ -5164,9 +4993,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:34
         GMT
       x-content-type-options:
       - nosniff
@@ -5213,9 +5042,9 @@ http_interactions:
           "body_of_water_description" : "",
           "others_using_residence_as_mailing" : true,
           "other_people_using_residence_as_mailing" : [ {
-            "first_name" : "Rebecca",
+            "first_name" : "Kitty",
             "middle_name" : "",
-            "last_name" : "Alek"
+            "last_name" : "Hayley"
           } ],
           "directions_to_home" : "",
           "home_languages" : [ {
@@ -5227,112 +5056,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/applicant-relationship-types
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '151'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Married",
-            "id" : 1
-          }, {
-            "value" : "Domestic Partnership",
-            "id" : 2
-          }, {
-            "value" : "Related (Family Member)",
-            "id" : 3
-          }, {
-            "value" : "Cohabitants",
-            "id" : 4
-          }, {
-            "value" : "Other",
-            "id" : 5
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/child-desired
-    body:
-      encoding: UTF-8
-      string: '{"child_identified":"true","child_in_home":"true","preferred_ages":[]}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '83'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "child_identified" : true,
-          "child_in_home" : true,
-          "preferred_ages" : [ ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:34 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/license-types
@@ -5354,9 +5078,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:34 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       vary:
       - Accept-Encoding
@@ -5386,10 +5110,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -5408,9 +5132,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:35 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       vary:
       - Accept-Encoding
@@ -5421,74 +5145,14 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '237'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Child",
-            "id" : 1
-          }, {
-            "value" : "Sibling",
-            "id" : 2
-          }, {
-            "value" : "Cousin",
-            "id" : 3
-          }, {
-            "value" : "Niece",
-            "id" : 4
-          }, {
-            "value" : "Nephew",
-            "id" : 5
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '665'
+      - '640'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -5525,9 +5189,9 @@ http_interactions:
             "body_of_water_description" : "",
             "others_using_residence_as_mailing" : true,
             "other_people_using_residence_as_mailing" : [ {
-              "first_name" : "Rebecca",
+              "first_name" : "Kitty",
               "middle_name" : "",
-              "last_name" : "Alek"
+              "last_name" : "Hayley"
             } ],
             "directions_to_home" : "",
             "home_languages" : [ {
@@ -5539,10 +5203,10 @@ http_interactions:
             } ]
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -5560,23 +5224,18 @@ http_interactions:
               "preferred" : false
             } ]
           } ],
-          "child_desired" : {
-            "child_identified" : true,
-            "child_in_home" : true,
-            "preferred_ages" : [ ]
-          },
           "metadata" : {
             "submit_enabled" : true
           },
           "status" : "IN_PROGRESS",
-          "resource_family_name" : "Smit, Paul",
+          "resource_family_name" : "Moen, Geovanni",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/name-types
+    uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
     body:
       encoding: US-ASCII
       string: ''
@@ -5601,9 +5260,9 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:35 GMT
       Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       Vary:
       - Accept-Encoding
@@ -5614,7 +5273,7 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       Content-Length:
-      - '187'
+      - '237'
       Connection:
       - keep-alive
     body:
@@ -5622,21 +5281,84 @@ http_interactions:
       string: |-
         {
           "items" : [ {
-            "value" : "AKA",
+            "value" : "Child",
             "id" : 1
           }, {
-            "value" : "Doe",
+            "value" : "Sibling",
             "id" : 2
           }, {
-            "value" : "Legal",
+            "value" : "Cousin",
             "id" : 3
           }, {
-            "value" : "Maiden",
+            "value" : "Niece",
             "id" : 4
+          }, {
+            "value" : "Nephew",
+            "id" : 5
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
+- request:
+    method: get
+    uri: https://calsapi.preint.cwds.io/dictionaries/relationship-to-applicant-types
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      Authorization:
+      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      content-security-policy:
+      - default-src 'self' 'unsafe-inline';
+      content-type:
+      - application/json
+      date:
+      - Mon, 09 Jul 2018 21:35:35 GMT
+      set-cookie:
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
+        GMT
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      content-length:
+      - '237'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "items" : [ {
+            "value" : "Child",
+            "id" : 1
+          }, {
+            "value" : "Sibling",
+            "id" : 2
+          }, {
+            "value" : "Cousin",
+            "id" : 3
+          }, {
+            "value" : "Niece",
+            "id" : 4
+          }, {
+            "value" : "Nephew",
+            "id" : 5
+          } ]
+        }
+    http_version: 
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-types
@@ -5658,9 +5380,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:35 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       vary:
       - Accept-Encoding
@@ -5693,7 +5415,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
@@ -5715,9 +5437,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:35 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       vary:
       - Accept-Encoding
@@ -5765,7 +5487,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-prefix-types
@@ -5787,9 +5509,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:35 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:35
         GMT
       vary:
       - Accept-Encoding
@@ -5828,7 +5550,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:35 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/phone-number-types
@@ -5850,9 +5572,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -5888,7 +5610,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/genders
@@ -5910,9 +5632,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -5939,7 +5661,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/education-level-types
@@ -5961,9 +5683,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6005,7 +5727,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/languages
@@ -6027,9 +5749,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:55 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:55
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6149,7 +5871,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:55 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/states
@@ -6171,9 +5893,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6368,7 +6090,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/income-types
@@ -6390,9 +6112,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6419,7 +6141,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/marriage-termination-reasons
@@ -6441,9 +6163,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6473,7 +6195,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/age-groups
@@ -6495,9 +6217,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:36 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:36
         GMT
       vary:
       - Accept-Encoding
@@ -6539,7 +6261,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:36 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/sibling-groups
@@ -6561,9 +6283,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:37 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:37
         GMT
       vary:
       - Accept-Encoding
@@ -6599,7 +6321,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:37 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/counties
@@ -6621,9 +6343,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:56 GMT
+      - Mon, 09 Jul 2018 21:35:37 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:56
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:37
         GMT
       vary:
       - Accept-Encoding
@@ -6821,10 +6543,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:56 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:37 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -6843,9 +6565,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:57 GMT
+      - Mon, 09 Jul 2018 21:35:37 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:57
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:37
         GMT
       vary:
       - Accept-Encoding
@@ -6856,14 +6578,14 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '665'
+      - '640'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -6900,9 +6622,9 @@ http_interactions:
             "body_of_water_description" : "",
             "others_using_residence_as_mailing" : true,
             "other_people_using_residence_as_mailing" : [ {
-              "first_name" : "Rebecca",
+              "first_name" : "Kitty",
               "middle_name" : "",
-              "last_name" : "Alek"
+              "last_name" : "Hayley"
             } ],
             "directions_to_home" : "",
             "home_languages" : [ {
@@ -6914,10 +6636,10 @@ http_interactions:
             } ]
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -6935,23 +6657,18 @@ http_interactions:
               "preferred" : false
             } ]
           } ],
-          "child_desired" : {
-            "child_identified" : true,
-            "child_in_home" : true,
-            "preferred_ages" : [ ]
-          },
           "metadata" : {
             "submit_enabled" : true
           },
           "status" : "IN_PROGRESS",
-          "resource_family_name" : "Smit, Paul",
+          "resource_family_name" : "Moen, Geovanni",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:57 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:37 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1b-forms/applicants/7069
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/rfa-1b-forms/applicants/7066
     body:
       encoding: UTF-8
       string: "{}"
@@ -6970,9 +6687,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:58 GMT
+      - Mon, 09 Jul 2018 21:35:38 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:58
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:38
         GMT
       x-content-type-options:
       - nosniff
@@ -6981,21 +6698,21 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '511'
+      - '514'
       connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: |-
         {
-          "id" : 1282,
+          "id" : 1280,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
-          "applicant_first_name" : "Paul",
-          "applicant_middle_name" : "k",
-          "applicant_last_name" : "Smit",
+          "applicant_first_name" : "Geovanni",
+          "applicant_middle_name" : "",
+          "applicant_last_name" : "Moen",
           "residence_address" : {
             "street_address" : "2870 something else",
             "zip" : "12345",
@@ -7013,7 +6730,7 @@ http_interactions:
           "driver_license" : ""
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:58 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:38 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/counties
@@ -7035,9 +6752,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:58 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:58
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7235,7 +6952,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:58 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
@@ -7257,9 +6974,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7307,7 +7024,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/name-prefix-types
@@ -7329,9 +7046,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7370,7 +7087,7 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
     uri: https://calsapi.preint.cwds.io/dictionaries/states
@@ -7392,9 +7109,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7589,10 +7306,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1b-forms/1282
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/rfa-1b-forms/1280
     body:
       encoding: US-ASCII
       string: ''
@@ -7611,9 +7328,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7624,21 +7341,21 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '265'
+      - '267'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 1282,
+          "id" : 1280,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
-          "applicant_first_name" : "Paul",
-          "applicant_middle_name" : "k",
-          "applicant_last_name" : "Smit",
+          "applicant_first_name" : "Geovanni",
+          "applicant_middle_name" : "",
+          "applicant_last_name" : "Moen",
           "residence_address" : {
             "street_address" : "2870 something else",
             "zip" : "12345",
@@ -7656,10 +7373,10 @@ http_interactions:
           "driver_license" : ""
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -7678,9 +7395,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       vary:
       - Accept-Encoding
@@ -7691,14 +7408,14 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '760'
+      - '735'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -7735,9 +7452,9 @@ http_interactions:
             "body_of_water_description" : "",
             "others_using_residence_as_mailing" : true,
             "other_people_using_residence_as_mailing" : [ {
-              "first_name" : "Rebecca",
+              "first_name" : "Kitty",
               "middle_name" : "",
-              "last_name" : "Alek"
+              "last_name" : "Hayley"
             } ],
             "directions_to_home" : "",
             "home_languages" : [ {
@@ -7749,10 +7466,10 @@ http_interactions:
             } ]
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -7770,14 +7487,14 @@ http_interactions:
               "preferred" : false
             } ],
             "rfa1b_form" : {
-              "id" : 1282,
+              "id" : 1280,
               "application_county" : {
                 "value" : "Madera",
                 "id" : 20
               },
-              "applicant_first_name" : "Paul",
-              "applicant_middle_name" : "k",
-              "applicant_last_name" : "Smit",
+              "applicant_first_name" : "Geovanni",
+              "applicant_middle_name" : "",
+              "applicant_last_name" : "Moen",
               "residence_address" : {
                 "street_address" : "2870 something else",
                 "zip" : "12345",
@@ -7795,23 +7512,18 @@ http_interactions:
               "driver_license" : ""
             }
           } ],
-          "child_desired" : {
-            "child_identified" : true,
-            "child_in_home" : true,
-            "preferred_ages" : [ ]
-          },
           "metadata" : {
             "submit_enabled" : true
           },
           "status" : "IN_PROGRESS",
-          "resource_family_name" : "Smit, Paul",
+          "resource_family_name" : "Moen, Geovanni",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/rfa-1c-forms/
     body:
       encoding: US-ASCII
       string: ''
@@ -7832,9 +7544,9 @@ http_interactions:
       content-type:
       - text/html;charset=iso-8859-1
       date:
-      - Mon, 09 Jul 2018 21:49:59 GMT
+      - Mon, 09 Jul 2018 21:35:39 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:49:59
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:39
         GMT
       x-content-type-options:
       - nosniff
@@ -7855,79 +7567,12 @@ http_interactions:
         <title>Error 404 Not Found</title>
         </head>
         <body><h2>HTTP ERROR 404</h2>
-        <p>Problem accessing /rfa-1a-forms/11380/rfa-1c-forms/. Reason:
+        <p>Problem accessing /rfa-1a-forms/11374/rfa-1c-forms/. Reason:
         <pre>    Not Found</pre></p>
         </body>
         </html>
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:49:59 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1b-forms/1282
-    body:
-      encoding: UTF-8
-      string: '{"id":1282,"resource_family_name":"test","applicant_first_name":"first
-        name","applicant_middle_name":"k","applicant_last_name":"last name","date_of_birth":"1111-11-11","driver_license":"","metadata":{"submit_enabled":true},"application_county":{"id":20,"value":"Madera"},"residence_address":{"street_address":"2870
-        something else2870 something else","zip":"12345","city":"Sacremento","state":{"id":"CA","value":"California"}}}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:02 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:02
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '558'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 1282,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "resource_family_name" : "test",
-          "applicant_first_name" : "first name",
-          "applicant_middle_name" : "k",
-          "applicant_last_name" : "last name",
-          "residence_address" : {
-            "street_address" : "2870 something else2870 something else",
-            "zip" : "12345",
-            "city" : "Sacremento",
-            "state" : {
-              "value" : "California",
-              "id" : "CA"
-            }
-          },
-          "date_of_birth" : "1111-11-11",
-          "driver_license" : "",
-          "metadata" : {
-            "submit_enabled" : true
-          }
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:02 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:39 GMT
 - request:
     method: get
     uri: https://geo.preint.cwds.io/address/suggest/2870%20something%20else2870%20something%20else
@@ -7947,9 +7592,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:02 GMT
+      - Mon, 09 Jul 2018 21:35:43 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:02
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:43
         GMT
       vary:
       - Accept-Encoding
@@ -7961,115 +7606,15 @@ http_interactions:
       encoding: UTF-8
       string: "[ ]"
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:02 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:43 GMT
 - request:
-    method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms
+    method: put
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/rfa-1b-forms/1280
     body:
       encoding: UTF-8
-      string: "{}"
-    headers:
-      Content-Type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 201
-      message: Created
-    headers:
-      Content-Security-Policy:
-      - default-src 'self' 'unsafe-inline';
-      Content-Type:
-      - application/json
-      Date:
-      - Mon, 09 Jul 2018 21:50:02 GMT
-      Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:02
-        GMT
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      Content-Length:
-      - '116'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms
-    body:
-      encoding: UTF-8
-      string: "{}"
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 201
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:02 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:02
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '116'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1b-forms/1282
-    body:
-      encoding: US-ASCII
-      string: ''
+      string: '{"id":1280,"resource_family_name":"test","applicant_first_name":"first
+        name","applicant_middle_name":"","applicant_last_name":"last name","date_of_birth":"1111-11-11","driver_license":"","metadata":{"submit_enabled":true},"application_county":{"id":20,"value":"Madera"},"residence_address":{"street_address":"2870
+        something else2870 something else","zip":"12345","city":"Sacremento","state":{"id":"CA","value":"California"}}}'
     headers:
       Content-type:
       - application/json
@@ -8085,12 +7630,10 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:02 GMT
+      - Mon, 09 Jul 2018 21:35:47 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:47
         GMT
-      vary:
-      - Accept-Encoding
       x-content-type-options:
       - nosniff
       x-frame-options:
@@ -8098,21 +7641,21 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '287'
+      - '557'
       connection:
       - keep-alive
     body:
-      encoding: ASCII-8BIT
+      encoding: UTF-8
       string: |-
         {
-          "id" : 1282,
+          "id" : 1280,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
           "resource_family_name" : "test",
           "applicant_first_name" : "first name",
-          "applicant_middle_name" : "k",
+          "applicant_middle_name" : "",
           "applicant_last_name" : "last name",
           "residence_address" : {
             "street_address" : "2870 something else2870 something else",
@@ -8130,13 +7673,175 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:47 GMT
+- request:
+    method: put
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374
+    body:
+      encoding: UTF-8
+      string: '{"id":"11374","metadata":{"submit_enabled":true}}'
+    headers:
+      Content-type:
+      - application/json
+      Authorization:
+      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      content-security-policy:
+      - default-src 'self' 'unsafe-inline';
+      content-type:
+      - application/json
+      date:
+      - Mon, 09 Jul 2018 21:35:47 GMT
+      set-cookie:
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:47
+        GMT
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      content-length:
+      - '1224'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id" : 11374,
+          "applicants" : [ {
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
+            "other_names" : [ ],
+            "date_of_birth" : "1111-11-11",
+            "gender" : {
+              "value" : "Male",
+              "id" : 1
+            },
+            "driver_license_number" : "",
+            "email" : "",
+            "phones" : [ {
+              "phone_type" : {
+                "value" : "Home",
+                "id" : 2
+              },
+              "number" : "2012222345",
+              "preferred" : false
+            } ],
+            "rfa1b_form" : {
+              "id" : 1280,
+              "application_county" : {
+                "value" : "Madera",
+                "id" : 20
+              },
+              "applicant_first_name" : "Geovanni",
+              "applicant_middle_name" : "",
+              "applicant_last_name" : "Moen",
+              "residence_address" : {
+                "street_address" : "2870 something else",
+                "zip" : "12345",
+                "city" : "Sacremento",
+                "state" : {
+                  "value" : "California",
+                  "id" : "CA"
+                },
+                "type" : {
+                  "value" : "Residential",
+                  "id" : 1
+                }
+              },
+              "date_of_birth" : "1111-11-11",
+              "driver_license" : ""
+            }
+          } ],
+          "metadata" : {
+            "submit_enabled" : true
+          },
+          "status" : "IN_PROGRESS",
+          "is_initial_application" : false
+        }
+    http_version: 
+  recorded_at: Mon, 09 Jul 2018 21:35:47 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/rfa-1b-forms/1280
     body:
       encoding: US-ASCII
       string: ''
+    headers:
+      Content-type:
+      - application/json
+      Authorization:
+      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      content-security-policy:
+      - default-src 'self' 'unsafe-inline';
+      content-type:
+      - application/json
+      date:
+      - Mon, 09 Jul 2018 21:35:48 GMT
+      set-cookie:
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - deny
+      x-xss-protection:
+      - 1; mode=block
+      content-length:
+      - '284'
+      connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "id" : 1280,
+          "application_county" : {
+            "value" : "Madera",
+            "id" : 20
+          },
+          "resource_family_name" : "test",
+          "applicant_first_name" : "first name",
+          "applicant_middle_name" : "",
+          "applicant_last_name" : "last name",
+          "residence_address" : {
+            "street_address" : "2870 something else2870 something else",
+            "zip" : "12345",
+            "city" : "Sacremento",
+            "state" : {
+              "value" : "California",
+              "id" : "CA"
+            }
+          },
+          "date_of_birth" : "1111-11-11",
+          "driver_license" : "",
+          "metadata" : {
+            "submit_enabled" : true
+          }
+        }
+    http_version: 
+  recorded_at: Mon, 09 Jul 2018 21:35:48 GMT
+- request:
+    method: put
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374
+    body:
+      encoding: UTF-8
+      string: '{"id":"11374","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
     headers:
       Content-Type:
       - application/json
@@ -8158,1464 +7863,9 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
+      - Mon, 09 Jul 2018 21:35:48 GMT
       Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      Vary:
-      - Accept-Encoding
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      Content-Length:
-      - '123'
-      Connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Esq",
-            "id" : 1
-          }, {
-            "value" : "II",
-            "id" : 2
-          }, {
-            "value" : "III",
-            "id" : 3
-          }, {
-            "value" : "IV",
-            "id" : 4
-          }, {
-            "value" : "JD",
-            "id" : 9
-          }, {
-            "value" : "Jr",
-            "id" : 5
-          }, {
-            "value" : "MD",
-            "id" : 7
-          }, {
-            "value" : "PhD",
-            "id" : 8
-          }, {
-            "value" : "Sr",
-            "id" : 6
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/name-suffix-types
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '123'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Esq",
-            "id" : 1
-          }, {
-            "value" : "II",
-            "id" : 2
-          }, {
-            "value" : "III",
-            "id" : 3
-          }, {
-            "value" : "IV",
-            "id" : 4
-          }, {
-            "value" : "JD",
-            "id" : 9
-          }, {
-            "value" : "Jr",
-            "id" : 5
-          }, {
-            "value" : "MD",
-            "id" : 7
-          }, {
-            "value" : "PhD",
-            "id" : 8
-          }, {
-            "value" : "Sr",
-            "id" : 6
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/states
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '640'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Alabama",
-            "id" : "AL"
-          }, {
-            "value" : "Alaska",
-            "id" : "AK"
-          }, {
-            "value" : "American Samoa",
-            "id" : "AM"
-          }, {
-            "value" : "Arizona",
-            "id" : "AZ"
-          }, {
-            "value" : "Arkansas",
-            "id" : "AR"
-          }, {
-            "value" : "California",
-            "id" : "CA"
-          }, {
-            "value" : "Canal Zone",
-            "id" : "CZ"
-          }, {
-            "value" : "Colorado",
-            "id" : "CO"
-          }, {
-            "value" : "Connecticut",
-            "id" : "CT"
-          }, {
-            "value" : "Delaware",
-            "id" : "DE"
-          }, {
-            "value" : "District of Columbia",
-            "id" : "DC"
-          }, {
-            "value" : "Florida",
-            "id" : "FL"
-          }, {
-            "value" : "Georgia",
-            "id" : "GA"
-          }, {
-            "value" : "Guam",
-            "id" : "GU"
-          }, {
-            "value" : "Hawaii",
-            "id" : "HI"
-          }, {
-            "value" : "Idaho",
-            "id" : "ID"
-          }, {
-            "value" : "Illinois",
-            "id" : "IL"
-          }, {
-            "value" : "Indiana",
-            "id" : "IN"
-          }, {
-            "value" : "Iowa",
-            "id" : "IA"
-          }, {
-            "value" : "Kansas",
-            "id" : "KS"
-          }, {
-            "value" : "Kentucky",
-            "id" : "KY"
-          }, {
-            "value" : "Louisiana",
-            "id" : "LA"
-          }, {
-            "value" : "Maine",
-            "id" : "ME"
-          }, {
-            "value" : "Maryland",
-            "id" : "MD"
-          }, {
-            "value" : "Massachusetts",
-            "id" : "MA"
-          }, {
-            "value" : "Michigan",
-            "id" : "MI"
-          }, {
-            "value" : "Minnesota",
-            "id" : "MN"
-          }, {
-            "value" : "Mississippi",
-            "id" : "MS"
-          }, {
-            "value" : "Missouri",
-            "id" : "MO"
-          }, {
-            "value" : "Montana",
-            "id" : "MT"
-          }, {
-            "value" : "Nebraska",
-            "id" : "NE"
-          }, {
-            "value" : "Nevada",
-            "id" : "NV"
-          }, {
-            "value" : "New Hampshire",
-            "id" : "NH"
-          }, {
-            "value" : "New Jersey",
-            "id" : "NJ"
-          }, {
-            "value" : "New Mexico",
-            "id" : "NM"
-          }, {
-            "value" : "New York",
-            "id" : "NY"
-          }, {
-            "value" : "North Carolina",
-            "id" : "NC"
-          }, {
-            "value" : "North Dakota",
-            "id" : "ND"
-          }, {
-            "value" : "Northern Marianas Islands",
-            "id" : "CM"
-          }, {
-            "value" : "Ohio",
-            "id" : "OH"
-          }, {
-            "value" : "Oklahoma",
-            "id" : "OK"
-          }, {
-            "value" : "Oregon",
-            "id" : "OR"
-          }, {
-            "value" : "Pennsylvania",
-            "id" : "PA"
-          }, {
-            "value" : "Puerto Rico",
-            "id" : "PR"
-          }, {
-            "value" : "Rhode Island",
-            "id" : "RI"
-          }, {
-            "value" : "South Carolina",
-            "id" : "SC"
-          }, {
-            "value" : "South Dakota",
-            "id" : "SD"
-          }, {
-            "value" : "Tennessee",
-            "id" : "TN"
-          }, {
-            "value" : "Texas",
-            "id" : "TX"
-          }, {
-            "value" : "Trust Territories",
-            "id" : "TT"
-          }, {
-            "value" : "Utah",
-            "id" : "UT"
-          }, {
-            "value" : "Vermont",
-            "id" : "VT"
-          }, {
-            "value" : "Virginia",
-            "id" : "VA"
-          }, {
-            "value" : "Virgin Islands",
-            "id" : "VI"
-          }, {
-            "value" : "Washington",
-            "id" : "WA"
-          }, {
-            "value" : "West Virginia",
-            "id" : "WV"
-          }, {
-            "value" : "Wisconsin",
-            "id" : "WI"
-          }, {
-            "value" : "Wyoming",
-            "id" : "WY"
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/counties
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '597'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Alameda",
-            "id" : 1
-          }, {
-            "value" : "Alpine",
-            "id" : 2
-          }, {
-            "value" : "Amador",
-            "id" : 3
-          }, {
-            "value" : "Butte",
-            "id" : 4
-          }, {
-            "value" : "Calaveras",
-            "id" : 5
-          }, {
-            "value" : "Colusa",
-            "id" : 6
-          }, {
-            "value" : "Contra Costa",
-            "id" : 7
-          }, {
-            "value" : "Del Norte",
-            "id" : 8
-          }, {
-            "value" : "El Dorado",
-            "id" : 9
-          }, {
-            "value" : "Fresno",
-            "id" : 10
-          }, {
-            "value" : "Glenn",
-            "id" : 11
-          }, {
-            "value" : "Humboldt",
-            "id" : 12
-          }, {
-            "value" : "Imperial",
-            "id" : 13
-          }, {
-            "value" : "Inyo",
-            "id" : 14
-          }, {
-            "value" : "Kern",
-            "id" : 15
-          }, {
-            "value" : "Kings",
-            "id" : 16
-          }, {
-            "value" : "Lake",
-            "id" : 17
-          }, {
-            "value" : "Lassen",
-            "id" : 18
-          }, {
-            "value" : "Los Angeles",
-            "id" : 19
-          }, {
-            "value" : "Madera",
-            "id" : 20
-          }, {
-            "value" : "Marin",
-            "id" : 21
-          }, {
-            "value" : "Mariposa",
-            "id" : 22
-          }, {
-            "value" : "Mendocino",
-            "id" : 23
-          }, {
-            "value" : "Merced",
-            "id" : 24
-          }, {
-            "value" : "Modoc",
-            "id" : 25
-          }, {
-            "value" : "Mono",
-            "id" : 26
-          }, {
-            "value" : "Monterey",
-            "id" : 27
-          }, {
-            "value" : "Napa",
-            "id" : 28
-          }, {
-            "value" : "Nevada",
-            "id" : 29
-          }, {
-            "value" : "Orange",
-            "id" : 30
-          }, {
-            "value" : "Placer",
-            "id" : 31
-          }, {
-            "value" : "Plumas",
-            "id" : 32
-          }, {
-            "value" : "Riverside",
-            "id" : 33
-          }, {
-            "value" : "Sacramento",
-            "id" : 34
-          }, {
-            "value" : "San Benito",
-            "id" : 35
-          }, {
-            "value" : "San Bernardino",
-            "id" : 36
-          }, {
-            "value" : "San Diego",
-            "id" : 37
-          }, {
-            "value" : "San Francisco",
-            "id" : 38
-          }, {
-            "value" : "San Joaquin",
-            "id" : 39
-          }, {
-            "value" : "San Luis Obispo",
-            "id" : 40
-          }, {
-            "value" : "San Mateo",
-            "id" : 41
-          }, {
-            "value" : "Santa Barbara",
-            "id" : 42
-          }, {
-            "value" : "Santa Clara",
-            "id" : 43
-          }, {
-            "value" : "Santa Cruz",
-            "id" : 44
-          }, {
-            "value" : "Shasta",
-            "id" : 45
-          }, {
-            "value" : "Sierra",
-            "id" : 46
-          }, {
-            "value" : "Siskiyou",
-            "id" : 47
-          }, {
-            "value" : "Solano",
-            "id" : 48
-          }, {
-            "value" : "Sonoma",
-            "id" : 49
-          }, {
-            "value" : "Stanislaus",
-            "id" : 50
-          }, {
-            "value" : "State of California",
-            "id" : 99
-          }, {
-            "value" : "Sutter",
-            "id" : 51
-          }, {
-            "value" : "Tehama",
-            "id" : 52
-          }, {
-            "value" : "Trinity",
-            "id" : 53
-          }, {
-            "value" : "Tulare",
-            "id" : 54
-          }, {
-            "value" : "Tuolumne",
-            "id" : 55
-          }, {
-            "value" : "Ventura",
-            "id" : 56
-          }, {
-            "value" : "Yolo",
-            "id" : 57
-          }, {
-            "value" : "Yuba",
-            "id" : 58
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/genders
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '104'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "items" : [ {
-            "value" : "Male",
-            "id" : 1
-          }, {
-            "value" : "Female",
-            "id" : 2
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/dictionaries/school-grades
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '157'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "value" : "TK",
-            "id" : 1
-          }, {
-            "value" : "K",
-            "id" : 2
-          }, {
-            "value" : "1",
-            "id" : 3
-          }, {
-            "value" : "2",
-            "id" : 4
-          }, {
-            "value" : "3",
-            "id" : 5
-          }, {
-            "value" : "4",
-            "id" : 6
-          }, {
-            "value" : "5",
-            "id" : 7
-          }, {
-            "value" : "6",
-            "id" : 8
-          }, {
-            "value" : "7",
-            "id" : 9
-          }, {
-            "value" : "8",
-            "id" : 10
-          }, {
-            "value" : "9",
-            "id" : 11
-          }, {
-            "value" : "10",
-            "id" : 12
-          }, {
-            "value" : "11",
-            "id" : 13
-          }, {
-            "value" : "12",
-            "id" : 14
-          }, {
-            "value" : "College +",
-            "id" : 15
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/715
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '116'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '803'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "id" : 11380,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "residence" : {
-            "addresses" : [ {
-              "street_address" : "2870 something else",
-              "zip" : "12345",
-              "city" : "Sacremento",
-              "state" : {
-                "value" : "California",
-                "id" : "CA"
-              },
-              "type" : {
-                "value" : "Residential",
-                "id" : 1
-              }
-            }, {
-              "street_address" : "",
-              "zip" : "",
-              "city" : "",
-              "type" : {
-                "value" : "Mailing",
-                "id" : 3
-              }
-            } ],
-            "physical_mailing_similar" : true,
-            "residence_ownership" : {
-              "value" : "Own",
-              "id" : 1
-            },
-            "weapon_in_home" : true,
-            "body_of_water_exist" : true,
-            "body_of_water_description" : "",
-            "others_using_residence_as_mailing" : true,
-            "other_people_using_residence_as_mailing" : [ {
-              "first_name" : "Rebecca",
-              "middle_name" : "",
-              "last_name" : "Alek"
-            } ],
-            "directions_to_home" : "",
-            "home_languages" : [ {
-              "value" : "American Sign Language",
-              "id" : 1
-            }, {
-              "value" : "Armenian",
-              "id" : 3
-            } ]
-          },
-          "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "other_names" : [ ],
-            "date_of_birth" : "1111-11-11",
-            "gender" : {
-              "value" : "Male",
-              "id" : 1
-            },
-            "driver_license_number" : "",
-            "email" : "",
-            "phones" : [ {
-              "phone_type" : {
-                "value" : "Home",
-                "id" : 2
-              },
-              "number" : "2012222345",
-              "preferred" : false
-            } ],
-            "rfa1b_form" : {
-              "id" : 1282,
-              "application_county" : {
-                "value" : "Madera",
-                "id" : 20
-              },
-              "resource_family_name" : "test",
-              "applicant_first_name" : "first name",
-              "applicant_middle_name" : "k",
-              "applicant_last_name" : "last name",
-              "residence_address" : {
-                "street_address" : "2870 something else2870 something else",
-                "zip" : "12345",
-                "city" : "Sacremento",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                }
-              },
-              "date_of_birth" : "1111-11-11",
-              "driver_license" : "",
-              "metadata" : {
-                "submit_enabled" : true
-              }
-            }
-          } ],
-          "rfa1c_forms" : [ {
-            "id" : 715,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "child_identified" : false
-          } ],
-          "child_desired" : {
-            "child_identified" : true,
-            "child_in_home" : true,
-            "preferred_ages" : [ ]
-          },
-          "metadata" : {
-            "submit_enabled" : true
-          },
-          "status" : "IN_PROGRESS",
-          "resource_family_name" : "Smit, Paul",
-          "is_initial_application" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '116'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1b-forms/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:03 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:03
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '301'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "items" : [ {
-            "id" : 1282,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "resource_family_name" : "test",
-            "applicant_first_name" : "first name",
-            "applicant_middle_name" : "k",
-            "applicant_last_name" : "last name",
-            "residence_address" : {
-              "street_address" : "2870 something else2870 something else",
-              "zip" : "12345",
-              "city" : "Sacremento",
-              "state" : {
-                "value" : "California",
-                "id" : "CA"
-              }
-            },
-            "date_of_birth" : "1111-11-11",
-            "driver_license" : "",
-            "metadata" : {
-              "submit_enabled" : true
-            }
-          } ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:03 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/715
-    body:
-      encoding: UTF-8
-      string: '{"id":715,"child_identified":false,"identified_children":[{"child_in_home":"true","date_of_birth":"2000-01-01","date_of_placement":"","first_name":"Paul","middle_name":"k","last_name":"Smit","school_name":"","school_address":{"street_address":"","zip":"","city":""},"relationship_to_applicants":[{"applicant_id":"","relationship_to_applicant_freeform":""}]}],"application_county":{"id":20,"value":"Madera"},"metadata":{"submit_enabled":true}}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:05 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:05
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '561'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false,
-          "identified_children" : [ {
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "date_of_birth" : "2000-01-01",
-            "relationship_to_applicants" : [ {
-              "relationship_to_applicant_freeform" : ""
-            } ],
-            "school_name" : "",
-            "school_address" : {
-              "street_address" : "",
-              "zip" : "",
-              "city" : ""
-            },
-            "child_in_home" : true
-          } ],
-          "metadata" : {
-            "submit_enabled" : true
-          }
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:05 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/715
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:05 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:05
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '280'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false,
-          "identified_children" : [ {
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "date_of_birth" : "2000-01-01",
-            "relationship_to_applicants" : [ {
-              "relationship_to_applicant_freeform" : ""
-            } ],
-            "school_name" : "",
-            "school_address" : {
-              "street_address" : "",
-              "zip" : "",
-              "city" : ""
-            },
-            "child_in_home" : true
-          } ],
-          "metadata" : {
-            "submit_enabled" : true
-          }
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:05 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/715
-    body:
-      encoding: UTF-8
-      string: '{"id":715,"child_identified":false,"identified_children":[{"child_in_home":true,"date_of_birth":"2000-01-01","first_name":"Paul","middle_name":"k","last_name":"Smit","school_name":"","school_address":{"street_address":"","zip":"","city":""},"relationship_to_applicants":[{"relationship_to_applicant_freeform":""}]}],"application_county":{"id":20,"value":"Madera"},"metadata":{"submit_enabled":true}}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:05 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:05
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '561'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false,
-          "identified_children" : [ {
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "date_of_birth" : "2000-01-01",
-            "relationship_to_applicants" : [ {
-              "relationship_to_applicant_freeform" : ""
-            } ],
-            "school_name" : "",
-            "school_address" : {
-              "street_address" : "",
-              "zip" : "",
-              "city" : ""
-            },
-            "child_in_home" : true
-          } ],
-          "metadata" : {
-            "submit_enabled" : true
-          }
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:05 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380
-    body:
-      encoding: UTF-8
-      string: '{"id":"11380","metadata":{"submit_enabled":true}}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:05 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:05
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '1902'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "id" : 11380,
-          "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "other_names" : [ ],
-            "date_of_birth" : "1111-11-11",
-            "gender" : {
-              "value" : "Male",
-              "id" : 1
-            },
-            "driver_license_number" : "",
-            "email" : "",
-            "phones" : [ {
-              "phone_type" : {
-                "value" : "Home",
-                "id" : 2
-              },
-              "number" : "2012222345",
-              "preferred" : false
-            } ],
-            "rfa1b_form" : {
-              "id" : 1282,
-              "application_county" : {
-                "value" : "Madera",
-                "id" : 20
-              },
-              "resource_family_name" : "test",
-              "applicant_first_name" : "first name",
-              "applicant_middle_name" : "k",
-              "applicant_last_name" : "last name",
-              "residence_address" : {
-                "street_address" : "2870 something else2870 something else",
-                "zip" : "12345",
-                "city" : "Sacremento",
-                "state" : {
-                  "value" : "California",
-                  "id" : "CA"
-                }
-              },
-              "date_of_birth" : "1111-11-11",
-              "driver_license" : "",
-              "metadata" : {
-                "submit_enabled" : true
-              }
-            }
-          } ],
-          "rfa1c_forms" : [ {
-            "id" : 715,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "child_identified" : false,
-            "identified_children" : [ {
-              "first_name" : "Paul",
-              "middle_name" : "k",
-              "last_name" : "Smit",
-              "date_of_birth" : "2000-01-01",
-              "relationship_to_applicants" : [ {
-                "relationship_to_applicant_freeform" : ""
-              } ],
-              "school_name" : "",
-              "school_address" : {
-                "street_address" : "",
-                "zip" : "",
-                "city" : ""
-              },
-              "child_in_home" : true
-            } ],
-            "metadata" : {
-              "submit_enabled" : true
-            }
-          } ],
-          "metadata" : {
-            "submit_enabled" : true
-          },
-          "status" : "IN_PROGRESS",
-          "is_initial_application" : false
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
-- request:
-    method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/rfa-1c-forms/715
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
-        GMT
-      vary:
-      - Accept-Encoding
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '280'
-      connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: |-
-        {
-          "id" : 715,
-          "application_county" : {
-            "value" : "Madera",
-            "id" : 20
-          },
-          "child_identified" : false,
-          "identified_children" : [ {
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
-            "date_of_birth" : "2000-01-01",
-            "relationship_to_applicants" : [ {
-              "relationship_to_applicant_freeform" : ""
-            } ],
-            "school_name" : "",
-            "school_address" : {
-              "street_address" : "",
-              "zip" : "",
-              "city" : ""
-            },
-            "child_in_home" : true
-          } ],
-          "metadata" : {
-            "submit_enabled" : true
-          }
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380
-    body:
-      encoding: UTF-8
-      string: '{"id":"11380","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
-    headers:
-      Content-Type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'self' 'unsafe-inline';
-      Content-Type:
-      - application/json
-      Date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
-      Set-Cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
         GMT
       X-Content-Type-Options:
       - nosniff
@@ -9624,23 +7874,23 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       Content-Length:
-      - '1972'
+      - '1337'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -9658,14 +7908,14 @@ http_interactions:
               "preferred" : false
             } ],
             "rfa1b_form" : {
-              "id" : 1282,
+              "id" : 1280,
               "application_county" : {
                 "value" : "Madera",
                 "id" : 20
               },
               "resource_family_name" : "test",
               "applicant_first_name" : "first name",
-              "applicant_middle_name" : "k",
+              "applicant_middle_name" : "",
               "applicant_last_name" : "last name",
               "residence_address" : {
                 "street_address" : "2870 something else2870 something else",
@@ -9683,33 +7933,6 @@ http_interactions:
               }
             }
           } ],
-          "rfa1c_forms" : [ {
-            "id" : 715,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "child_identified" : false,
-            "identified_children" : [ {
-              "first_name" : "Paul",
-              "middle_name" : "k",
-              "last_name" : "Smit",
-              "date_of_birth" : "2000-01-01",
-              "relationship_to_applicants" : [ {
-                "relationship_to_applicant_freeform" : ""
-              } ],
-              "school_name" : "",
-              "school_address" : {
-                "street_address" : "",
-                "zip" : "",
-                "city" : ""
-              },
-              "child_in_home" : true
-            } ],
-            "metadata" : {
-              "submit_enabled" : true
-            }
-          } ],
           "metadata" : {
             "submit_enabled" : true
           },
@@ -9717,13 +7940,13 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:48 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374
     body:
       encoding: UTF-8
-      string: '{"id":"11380","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
+      string: '{"id":"11374","metadata":{"submit_enabled":true},"application_county":{"value":"Madera","id":20}}'
     headers:
       Content-type:
       - application/json
@@ -9739,9 +7962,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
+      - Mon, 09 Jul 2018 21:35:48 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
         GMT
       x-content-type-options:
       - nosniff
@@ -9750,23 +7973,23 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '1972'
+      - '1337'
       connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -9784,14 +8007,14 @@ http_interactions:
               "preferred" : false
             } ],
             "rfa1b_form" : {
-              "id" : 1282,
+              "id" : 1280,
               "application_county" : {
                 "value" : "Madera",
                 "id" : 20
               },
               "resource_family_name" : "test",
               "applicant_first_name" : "first name",
-              "applicant_middle_name" : "k",
+              "applicant_middle_name" : "",
               "applicant_last_name" : "last name",
               "residence_address" : {
                 "street_address" : "2870 something else2870 something else",
@@ -9809,33 +8032,6 @@ http_interactions:
               }
             }
           } ],
-          "rfa1c_forms" : [ {
-            "id" : 715,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "child_identified" : false,
-            "identified_children" : [ {
-              "first_name" : "Paul",
-              "middle_name" : "k",
-              "last_name" : "Smit",
-              "date_of_birth" : "2000-01-01",
-              "relationship_to_applicants" : [ {
-                "relationship_to_applicant_freeform" : ""
-              } ],
-              "school_name" : "",
-              "school_address" : {
-                "street_address" : "",
-                "zip" : "",
-                "city" : ""
-              },
-              "child_in_home" : true
-            } ],
-            "metadata" : {
-              "submit_enabled" : true
-            }
-          } ],
           "metadata" : {
             "submit_enabled" : true
           },
@@ -9843,13 +8039,13 @@ http_interactions:
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:48 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/applicants/7069
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/applicants/7066
     body:
       encoding: UTF-8
-      string: '{"id":7069,"email":"","date_of_birth":"1111-11-11","first_name":"Paul","middle_name":"k","last_name":"Smit","driver_license_number":"","gender":{"id":1,"value":"Male"},"phones":[{"number":"2012222345","preferred":false,"phone_type":{"id":2,"value":"Home"}}],"other_names":[]}'
+      string: '{"id":7066,"email":"","date_of_birth":"1111-11-11","first_name":"Geovanni","middle_name":"","last_name":"Moen","driver_license_number":"","gender":{"id":1,"value":"Male"},"phones":[{"number":"2012222345","preferred":false,"phone_type":{"id":2,"value":"Home"}}],"other_names":[]}'
     headers:
       Content-type:
       - application/json
@@ -9865,9 +8061,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
+      - Mon, 09 Jul 2018 21:35:48 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
         GMT
       x-content-type-options:
       - nosniff
@@ -9876,17 +8072,17 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '1018'
+      - '1020'
       connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: |-
         {
-          "id" : 7069,
-          "first_name" : "Paul",
-          "middle_name" : "k",
-          "last_name" : "Smit",
+          "id" : 7066,
+          "first_name" : "Geovanni",
+          "middle_name" : "",
+          "last_name" : "Moen",
           "other_names" : [ ],
           "date_of_birth" : "1111-11-11",
           "gender" : {
@@ -9904,14 +8100,14 @@ http_interactions:
             "preferred" : false
           } ],
           "rfa1b_form" : {
-            "id" : 1282,
+            "id" : 1280,
             "application_county" : {
               "value" : "Madera",
               "id" : 20
             },
             "resource_family_name" : "test",
             "applicant_first_name" : "first name",
-            "applicant_middle_name" : "k",
+            "applicant_middle_name" : "",
             "applicant_last_name" : "last name",
             "residence_address" : {
               "street_address" : "2870 something else2870 something else",
@@ -9930,14 +8126,14 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:48 GMT
 - request:
     method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/residence
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/residence
     body:
       encoding: UTF-8
       string: '{"physical_mailing_similar":true,"weapon_in_home":true,"body_of_water_exist":true,"body_of_water_description":"","others_using_residence_as_mailing":true,"directions_to_home":"","residence_ownership":{"id":1,"value":"Own"},"home_languages":[{"id":1,"value":"American
-        Sign Language"},{"id":3,"value":"Armenian"}],"other_people_using_residence_as_mailing":[{"first_name":"Rebecca","middle_name":"","last_name":"Alek"}],"addresses":[{"street_address":"2870
+        Sign Language"},{"id":3,"value":"Armenian"}],"other_people_using_residence_as_mailing":[{"first_name":"Kitty","middle_name":"","last_name":"Hayley"}],"addresses":[{"street_address":"2870
         something else","zip":"12345","city":"Sacremento","state":{"id":"CA","value":"California"},"type":{"id":1,"value":"Residential"}},{"street_address":"","zip":"","city":"","type":{"id":3,"value":"Mailing"}}]}'
     headers:
       Content-type:
@@ -9954,9 +8150,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
+      - Mon, 09 Jul 2018 21:35:48 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
         GMT
       x-content-type-options:
       - nosniff
@@ -10003,9 +8199,9 @@ http_interactions:
           "body_of_water_description" : "",
           "others_using_residence_as_mailing" : true,
           "other_people_using_residence_as_mailing" : [ {
-            "first_name" : "Rebecca",
+            "first_name" : "Kitty",
             "middle_name" : "",
-            "last_name" : "Alek"
+            "last_name" : "Hayley"
           } ],
           "directions_to_home" : "",
           "home_languages" : [ {
@@ -10017,55 +8213,10 @@ http_interactions:
           } ]
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
-- request:
-    method: put
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/child-desired
-    body:
-      encoding: UTF-8
-      string: '{"child_identified":true,"child_in_home":true,"preferred_ages":[]}'
-    headers:
-      Content-type:
-      - application/json
-      Authorization:
-      - a5d62934-6835-4864-9b0b-a1d0589ccd3d
-  response:
-    status:
-      code: 200
-      message: 
-    headers:
-      content-security-policy:
-      - default-src 'self' 'unsafe-inline';
-      content-type:
-      - application/json
-      date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
-      set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
-        GMT
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - deny
-      x-xss-protection:
-      - 1; mode=block
-      content-length:
-      - '83'
-      connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "child_identified" : true,
-          "child_in_home" : true,
-          "preferred_ages" : [ ]
-        }
-    http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:06 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:48 GMT
 - request:
     method: post
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380/status
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374/status
     body:
       encoding: UTF-8
       string: '{"status":"SUBMITTED"}'
@@ -10082,9 +8233,9 @@ http_interactions:
       content-security-policy:
       - default-src 'self' 'unsafe-inline';
       date:
-      - Mon, 09 Jul 2018 21:50:06 GMT
+      - Mon, 09 Jul 2018 21:35:48 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:06
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:48
         GMT
       x-content-type-options:
       - nosniff
@@ -10100,10 +8251,10 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:08 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:51 GMT
 - request:
     method: get
-    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11380?expanded=true
+    uri: https://calsapi.preint.cwds.io/rfa-1a-forms/11374?expanded=true
     body:
       encoding: US-ASCII
       string: ''
@@ -10122,9 +8273,9 @@ http_interactions:
       content-type:
       - application/json
       date:
-      - Mon, 09 Jul 2018 21:50:08 GMT
+      - Mon, 09 Jul 2018 21:35:51 GMT
       set-cookie:
-      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:50:08
+      - rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sun, 08-Jul-2018 21:35:51
         GMT
       vary:
       - Accept-Encoding
@@ -10135,14 +8286,14 @@ http_interactions:
       x-xss-protection:
       - 1; mode=block
       content-length:
-      - '912'
+      - '772'
       connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: |-
         {
-          "id" : 11380,
+          "id" : 11374,
           "application_county" : {
             "value" : "Madera",
             "id" : 20
@@ -10179,9 +8330,9 @@ http_interactions:
             "body_of_water_description" : "",
             "others_using_residence_as_mailing" : true,
             "other_people_using_residence_as_mailing" : [ {
-              "first_name" : "Rebecca",
+              "first_name" : "Kitty",
               "middle_name" : "",
-              "last_name" : "Alek"
+              "last_name" : "Hayley"
             } ],
             "directions_to_home" : "",
             "home_languages" : [ {
@@ -10193,10 +8344,10 @@ http_interactions:
             } ]
           },
           "applicants" : [ {
-            "id" : 7069,
-            "first_name" : "Paul",
-            "middle_name" : "k",
-            "last_name" : "Smit",
+            "id" : 7066,
+            "first_name" : "Geovanni",
+            "middle_name" : "",
+            "last_name" : "Moen",
             "other_names" : [ ],
             "date_of_birth" : "1111-11-11",
             "gender" : {
@@ -10214,14 +8365,14 @@ http_interactions:
               "preferred" : false
             } ],
             "rfa1b_form" : {
-              "id" : 1282,
+              "id" : 1280,
               "application_county" : {
                 "value" : "Madera",
                 "id" : 20
               },
               "resource_family_name" : "test",
               "applicant_first_name" : "first name",
-              "applicant_middle_name" : "k",
+              "applicant_middle_name" : "",
               "applicant_last_name" : "last name",
               "residence_address" : {
                 "street_address" : "2870 something else2870 something else",
@@ -10239,46 +8390,14 @@ http_interactions:
               }
             }
           } ],
-          "rfa1c_forms" : [ {
-            "id" : 715,
-            "application_county" : {
-              "value" : "Madera",
-              "id" : 20
-            },
-            "child_identified" : false,
-            "identified_children" : [ {
-              "first_name" : "Paul",
-              "middle_name" : "k",
-              "last_name" : "Smit",
-              "date_of_birth" : "2000-01-01",
-              "relationship_to_applicants" : [ {
-                "relationship_to_applicant_freeform" : ""
-              } ],
-              "school_name" : "",
-              "school_address" : {
-                "street_address" : "",
-                "zip" : "",
-                "city" : ""
-              },
-              "child_in_home" : true
-            } ],
-            "metadata" : {
-              "submit_enabled" : true
-            }
-          } ],
-          "child_desired" : {
-            "child_identified" : true,
-            "child_in_home" : true,
-            "preferred_ages" : [ ]
-          },
-          "placement_home_id" : "IbOhYpb0X6",
+          "placement_home_id" : "IJdBNTF0X6",
           "metadata" : {
             "submit_enabled" : true
           },
           "status" : "SUBMITTED",
-          "resource_family_name" : "Smit, Paul",
+          "resource_family_name" : "Moen, Geovanni",
           "is_initial_application" : false
         }
     http_version: 
-  recorded_at: Mon, 09 Jul 2018 21:50:08 GMT
+  recorded_at: Mon, 09 Jul 2018 21:35:51 GMT
 recorded_with: VCR 3.0.3
