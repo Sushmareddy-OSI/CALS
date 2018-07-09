@@ -486,6 +486,8 @@ RSpec.feature 'RFA01A', js: true, inaccessible: true do
 
 
   scenario 'Other adult and minor information are saved with reference to applicant',  set_auth_header: true do
+    visit root_path
+    page.driver.browser.manage.window.resize_to 1200, 800
     click_button 'Create RFA Application'
     page.driver.browser.manage.window.resize_to 1200, 800
     applicant_0_first_name = 'rick'
