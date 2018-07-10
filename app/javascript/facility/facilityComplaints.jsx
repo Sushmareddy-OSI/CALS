@@ -54,6 +54,7 @@ export default class FacilityComplaints extends React.Component {
       {
         Header: 'ALLEGATION DESCRIPTION',
         maxWidth: 700,
+        className: 'rt_td_ie',
         accessor: 'allegation'
       },
       {
