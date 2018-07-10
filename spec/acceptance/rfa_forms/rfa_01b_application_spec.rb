@@ -106,7 +106,7 @@ RSpec.feature 'RFA01B', js: true, inaccessible: true do
     fill_in('applicants[0].last_name', with: last_name, match: :prefer_exact)
     click_button('Save Progress')
     visit page.driver.current_url
-    expect(page.find('#edit_page > div > div > div > div.left-content.col-xs-3.col-sm-3.col-md-3.col-lg-3 > div > div.nav-menu.col-sm-10 > div > div.nav-menu > div:nth-child(2) > div > div > div > div > nav > ul > div > div:nth-child(1) > li > a').text).to eq("#{first_name} #{last_name}")
+    expect(page).to have_content "#{first_name} #{last_name}"
     click_link("#{first_name} #{last_name}")
     expect(page).to have_button('Submit', disabled: true)
   end
