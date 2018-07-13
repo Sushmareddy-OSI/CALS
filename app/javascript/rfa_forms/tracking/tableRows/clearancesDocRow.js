@@ -5,8 +5,10 @@ import {BinarySelectorField} from 'components/common/binarySelectorField'
 import {DateField} from 'components/common/dateFields'
 import {TextAreaComponent} from 'components/common/textArea'
 import {FormatDateForDisplay, FormatDateForPersistance} from 'helpers/commonHelper.jsx'
+import {urlPrefixHelper} from 'helpers/url_prefix_helper.js.erb'
 
 const ClearancesDocRow = ({
+  trackingId,
   clearanceDocuments,
   peopleIndex,
   editMode,
@@ -15,6 +17,8 @@ const ClearancesDocRow = ({
   return (
     editMode
       ? clearanceDocuments.items.map((peopleDoc, itemIndex) => {
+        const href = itemIndex === 0 ? <a href={urlPrefixHelper('/trackings/' + trackingId + '/a02')}> {peopleDoc.title} </a> : peopleDoc.title
+
         return (
           <tr key={'clearance' + peopleIndex + 'Edit' + itemIndex}>
             <td><BinarySelectorField
@@ -22,7 +26,7 @@ const ClearancesDocRow = ({
               type='checkbox'
               key={itemIndex}
               labelId={'checkLabel' + itemIndex}
-              label={peopleDoc.title}
+              label={href}
               gridClassName='col-xs-12'
               onChange={(event) => handleChange('checked', event.target.checked, peopleIndex, itemIndex)}
               defaultChecked={peopleDoc.checked}
@@ -50,6 +54,8 @@ const ClearancesDocRow = ({
         )
       })
       : clearanceDocuments.items.map((peopleDoc, index) => {
+        const href = index === 0 ? <a data-method='post' href={urlPrefixHelper('/trackings/' + trackingId + '/a02')}> {peopleDoc.title} </a> : peopleDoc.title
+
         return (
           <tr key={'clearance' + peopleIndex + 'Show' + index}>
             <td id={'clearanceShowCheckbox' + index}>
@@ -57,7 +63,7 @@ const ClearancesDocRow = ({
                 type='checkbox'
                 key={index}
                 labelId={'checkLabel' + index}
-                label={peopleDoc.title}
+                label={href}
                 gridClassName='col-xs-12'
                 defaultChecked={peopleDoc.checked} />
             </td>

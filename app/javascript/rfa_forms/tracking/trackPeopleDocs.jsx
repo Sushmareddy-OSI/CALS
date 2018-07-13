@@ -96,6 +96,7 @@ export default class TrackPeopleDocs extends React.Component {
                   colHeaders={['Clearances', 'Started', 'Completed', 'Notes']}
                   rowsComponent={
                     <ClearancesDocRow
+                      trackingId={this.props.trackingId}
                       peopleIndex={peopleIndex}
                       handleChange={this.handleClearancesDocsChange}
                       clearanceDocuments={peopleDoc.person_documents.clearances}

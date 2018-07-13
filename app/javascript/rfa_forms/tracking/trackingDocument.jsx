@@ -18,6 +18,7 @@ export default class TrackingDocument extends React.Component {
 
         {
           <TrackPeopleDocs
+            trackingId={this.props.trackingId}
             setParentState={this.props.setPeopleDocumentsState}
             trackingDocuments={this.props.trackingDocuments}
             editMode={this.props.editMode}

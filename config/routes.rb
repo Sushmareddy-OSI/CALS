@@ -16,8 +16,6 @@ Rails.application.routes.draw do
   get 'heartbeat', to: 'heartbeat#show'
   get 'logout',   to: 'cals_base#logout'
 
-
-
   namespace :rfa do
     constraints lambda{ |request| !DISABLE_RFA_APPLICATION } do
       resources :a01 do
@@ -29,8 +27,12 @@ Rails.application.routes.draw do
       end
       resources :b01
     end
-
   end
+
+    resources :trackings, only: [:index] do
+    resources :a02
+  end
+
   #get 'geoservice', to: 'geoservice#show'
   resources :geoservice, only: [:create] do
     collection { post :validate }
