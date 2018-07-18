@@ -1,4 +1,3 @@
-
 export const rfa02Object = Object.freeze({
   "id": -1,
   "tracking_id": -1,
@@ -6,8 +5,8 @@ export const rfa02Object = Object.freeze({
   "people": [
     {
       "person_id": -1,
-      "person_name": "",
-      "person_type": "",
+      "person_name": "Chris Cambell",
+      "person_type": "Applicant",
       "background_check": {
         "emergency_placement_only": {
           "is_emergency": true,
